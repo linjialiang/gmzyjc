@@ -12,16 +12,19 @@ hero:
         src: '/static/wechat-pay.png'
         alt: 'PHP 环境搭建'
     actions:
+        - theme: brand
+          text: 👉 关于项目
+          link: /README
+        - theme: alt
+          text: 光明中医教程官网
+          link: https://www.gmzyjc.com/site/
         - theme: alt
           text: 光明教材电子化公益项目
           link: /gmzyjc/README
-        - theme: brand
-          text: 👉光明中医教材官网
-          link: https://www.gmzyjc.com/site/
 
 features:
     - title: 第一学年
-      details: 主要涉及中医入门基础教学
+      details: 中医入门基础教学
       link: /1
     - title: 第二学年
       details: 系统讲解古代中医经典
@@ -33,6 +36,6 @@ features:
       details: 针灸以及中医文献
       link: /4
     - title: 其他书籍
-      details: 主要涉及中医古籍电子书和光明中医函授大学相关内容
+      details: 中医经典古籍电子书
       link: /other
 ---
