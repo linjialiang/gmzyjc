@@ -86,8 +86,8 @@ export default defineConfig({
       '/gmzyjc/': sidebar.gmzyjc,
     },
     footer: {
-      message: '程序员系列教程-PHP 环境搭建',
-      copyright: 'Copyright © 2024-present 地上马',
+      message: '光明中医教程电子化',
+      copyright: 'Copyright © 2025-present 地上马',
     },
   },
 });
