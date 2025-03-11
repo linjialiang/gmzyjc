@@ -1,44 +1,29 @@
 ---
-title: 光明中医教材
+title: 其他书籍
 titleTemplate: 光明中医教材
 
 layout: home
 
 hero:
-    name: 光明中医教材
+    name: 其他书籍
     text: 光明中医教材电子版
-    tagline: 光明中医教材电子版，邀请大家共同来完善！
+    tagline: 中医经典古籍电子书
     image:
         src: '/static/wechat-pay.png'
-        alt: 'PHP 环境搭建'
+        alt: '赞赏作者'
     actions:
+        - theme: brand
+          text: 👉 关于项目
+          link: /README
+        - theme: alt
+          text: 光明中医教程官网
+          link: https://www.gmzyjc.com/site/
         - theme: alt
           text: 光明教材电子化公益项目
           link: /gmzyjc/README
-        - theme: brand
-          text: 👉光明中医教材官网
-          link: https://www.gmzyjc.com/site/
 
 features:
     - title: 了解光明
       details: 001了解光明
       link: /gmzyjc/ok/gmzy/gmzy001
-    - title: 中医概念入门
-      details: 000中医概念入门
-      link: /gmzyjc/ok/rm/gangyao
-    - title: 实用中医文献学
-      details: 005实用中医文献学
-      link: /gmzyjc/ok/zywx/daoyan
-    - title: 中医药学概论
-      details: 006中医药学概论
-      link: /gmzyjc/ok/gl/gangyao
-    - title: 口诀浅释
-      details: 007口诀浅释
-      link: /gmzyjc/ok/kj/daoyan
-    - title: 中药诊断方剂口诀
-      details: 007中药诊断方剂口诀
-      link: /gmzyjc/ok/kjn/daoyan
-    - title: 临证程序
-      details: 008临证程序
-      link: /gmzyjc/ok/rm/gangyao
 ---

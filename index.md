@@ -10,7 +10,7 @@ hero:
     tagline: 光明中医教材电子版，邀请大家共同来完善！
     image:
         src: '/static/wechat-pay.png'
-        alt: 'PHP 环境搭建'
+        alt: '赞赏作者'
     actions:
         - theme: brand
           text: 👉 关于项目
