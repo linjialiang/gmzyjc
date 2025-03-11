@@ -86,7 +86,7 @@ export default defineConfig({
       '/gmzyjc/': sidebar.gmzyjc,
     },
     footer: {
-      message: '光明中医教程电子化',
+      message: '光明中医教材电子化',
       copyright: 'Copyright © 2025-present 地上马',
     },
   },
