@@ -1,5 +1,5 @@
 const path = {
-  main: '/gmzyjc/ok/zywx/',
+  main: '/gmzyjc/ok/gmrw/',
 };
 
 const sidebar = [
@@ -11,4 +11,4 @@ const sidebar = [
   },
 ];
 
-export { sidebar as zywx };
+export { sidebar as gmrw };
