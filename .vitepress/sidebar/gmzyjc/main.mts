@@ -36,7 +36,7 @@ const sidebar = [
       { text: '《中医骨伤科学》', link: `${path.main}gk/gk00` },
       { text: '《中医眼科学》', link: `${path.main}yk/yk00` },
       { text: '《中医妇科学》', link: `${path.main}fk/fk00` },
-      { text: '《中医儿科学》', link: `${path.main}ek/ek00` },
+      { text: '《中医儿科学》', link: `${path.main}ek/ek0000` },
     ],
   },
   {
