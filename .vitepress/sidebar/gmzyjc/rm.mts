@@ -32,7 +32,6 @@ const sidebar = [
       { text: '概述', link: `${path.main}rmfu` },
       { text: '附1：再论中医的阴阳概念', link: `${path.main}rmfu1` },
       { text: '附2：证与病的关系', link: `${path.main}rmfu2` },
-      { text: '附2：证与病的关系', link: `${path.main}rmfu3` },
       { text: '附3：诊治入门目录', link: `${path.main}zhenzhi` },
     ],
   },
