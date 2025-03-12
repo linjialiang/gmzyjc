@@ -89,16 +89,4 @@ export default defineConfig({
       copyright: 'Copyright © 2025-present 地上马',
     },
   },
-  /*   vite: {
-    server: {
-      hmr: {
-        overlay: false,
-      },
-    },
-    resolve: {
-      alias: {
-        'img/天地.svg': new URL('./img/天地.svg', import.meta.url).pathname,
-      },
-    },
-  }, */
 });
