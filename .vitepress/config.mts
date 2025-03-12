@@ -83,7 +83,7 @@ export default defineConfig({
       { text: '光明中医', items: nav.gmzyjc },
     ],
     sidebar: {
-      '/gmzyjc/': sidebar.gmzyjc,
+      '/gmzyjc/ok/gmzy/': sidebar.gmzyjc,
     },
     footer: {
       message: '光明中医教材电子化',
