@@ -66,7 +66,7 @@
 
 四趾外端**足窍阴**，四十四穴仔细吟。
 
-<img src="img/图100.jpg" style="zoom:80%;" />
+<img src="./img/图100.jpg" style="zoom:80%;" />
 
 图100足少阳胆经循行示意图
 

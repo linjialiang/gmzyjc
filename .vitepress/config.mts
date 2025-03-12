@@ -81,6 +81,7 @@ export default defineConfig({
     nav: [{ text: '主页', link: '/' }, ...nav.gmzyjc],
     sidebar: {
       '/gmzyjc/ok/gmzy/': sidebar.gmzy,
+      '/gmzyjc/ok/rm/': sidebar.rm,
       '/gmzyjc/ok/': sidebar.gmzyjc,
     },
     footer: {
@@ -88,4 +89,16 @@ export default defineConfig({
       copyright: 'Copyright © 2025-present 地上马',
     },
   },
+  /*   vite: {
+    server: {
+      hmr: {
+        overlay: false,
+      },
+    },
+    resolve: {
+      alias: {
+        'img/天地.svg': new URL('./img/天地.svg', import.meta.url).pathname,
+      },
+    },
+  }, */
 });

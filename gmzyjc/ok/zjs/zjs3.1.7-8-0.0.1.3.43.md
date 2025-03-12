@@ -16,4 +16,4 @@
 
 古籍载本穴灸多则千壮，但须灸足三里引火下行，以免虚火上泛，上焦作热。
 
-<img src="img/图71.jpg" style="zoom:80%;" />
+<img src="./img/图71.jpg" style="zoom:80%;" />

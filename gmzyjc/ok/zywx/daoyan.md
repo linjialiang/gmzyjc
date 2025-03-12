@@ -19,7 +19,7 @@
 #### 加入光明：
 
 <div style="text-align: center">
-<img src="img/gmzyjx-a.png" style="zoom:60%;" />
+<img src="./img/gmzyjx-a.png" style="zoom:60%;" />
 </div>
 
 光明中医网址：[www.gmzyjx.com](https://www.gmzyjx.com)，[www.gmzyjc.com](https://www.gmzyjc.com)
