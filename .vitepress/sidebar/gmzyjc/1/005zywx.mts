@@ -6,9 +6,9 @@ const sidebar = [
   { text: '编者与编者的话', link: `${path.main}zywx00` },
   { text: '编者与编者的话', link: `${path.main}zywx00` },
   { text: '导言', link: `${path.main}daoyan` },
-  { text: '第一章　绪论', link: `${path.main}zywx01` },
+  { text: '第一章 绪论', link: `${path.main}zywx01` },
   {
-    text: '第二章　中医文献的命名',
+    text: '第二章 中医文献的命名',
     collapsed: true,
     items: [
       { text: '概述', link: `${path.main}zywx02` },
@@ -39,7 +39,7 @@ const sidebar = [
     ],
   },
   {
-    text: '第四章　中医文献的正文文体格式',
+    text: '第四章 中医文献的正文文体格式',
     collapsed: true,
     items: [
       { text: '概述', link: `${path.main}zywx04` },
@@ -48,7 +48,7 @@ const sidebar = [
     ],
   },
   {
-    text: '第四章　中医文献的正文文体格式',
+    text: '第四章 中医文献的正文文体格式',
     collapsed: true,
     items: [
       { text: '概述', link: `${path.main}zywx04` },
