@@ -54,7 +54,7 @@ const sidebar = [
     ],
   },
   {
-    text: '其他',
+    text: '其他书籍',
     collapsed: true,
     items: [
       { text: '《光明人物》', link: `${path.main}gmrw/吕炳奎` },

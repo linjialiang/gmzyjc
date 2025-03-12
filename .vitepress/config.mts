@@ -78,10 +78,7 @@ export default defineConfig({
         },
       },
     },
-    nav: [
-      { text: '主页', link: '/' },
-      { text: '光明中医', items: nav.gmzyjc },
-    ],
+    nav: [{ text: '主页', link: '/' }, ...nav.gmzyjc],
     sidebar: {
       '/gmzyjc/ok/gmzy/': sidebar.gmzy,
       '/gmzyjc/ok/': sidebar.gmzyjc,
