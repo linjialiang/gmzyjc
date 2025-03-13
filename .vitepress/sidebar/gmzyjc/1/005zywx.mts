@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《实用中医文献学》' },
   { text: '编者与编者的话', link: `${path.main}zywx00` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '第一章 绪论', link: `${path.main}zywx01` },

@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《中医药学概论》' },
   { text: '编者', link: `${path.main}gl00.0-0.0.1.0.0` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '编者的话', link: `${path.main}gl00.0-0.0.2.0.0` },

@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《中医概念入门》' },
   { text: '作者简介', link: `${path.main}rm000` },
   { text: '书评节选', link: `${path.main}rmsp` },
   { text: '绪言', link: `${path.main}rm00` },

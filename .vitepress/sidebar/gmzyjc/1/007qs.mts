@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《口诀浅释》' },
   { text: '编者说明', link: `${path.main}qs00` },
   {
     text: '一、诊法口诀',

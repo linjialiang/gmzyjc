@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《中药诊断方剂口诀》' },
   { text: '编者', link: `${path.main}kjn00` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '编者的话', link: `${path.main}kjn000` },

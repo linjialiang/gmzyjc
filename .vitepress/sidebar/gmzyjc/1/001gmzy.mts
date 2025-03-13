@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《了解光明》' },
   {
     text: '光明中医函授大学在京隆重开学',
     link: `${path.main}gmzy001`,
