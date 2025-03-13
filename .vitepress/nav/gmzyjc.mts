@@ -13,7 +13,7 @@ const nav = [
       { text: '《中医药学概论》', link: `${path.main}gl/gl00.0-0.0.1.0.0` },
       { text: '《口诀浅释》', link: `${path.main}qs/qs00` },
       { text: '《中药诊断方剂口诀》', link: `${path.main}kjn/kjn00` },
-      { text: '《临证程序》', link: `${path.main}lzcx/zyzl00-00` },
+      { text: '《临证程序》', link: `${path.main}lzcx/lzcx00` },
     ],
   },
   {
