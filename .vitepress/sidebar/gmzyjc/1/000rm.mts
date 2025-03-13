@@ -10,9 +10,9 @@ const sidebar = [
   { text: '第二章 天地自然', link: `${path.main}rm02` },
   {
     text: '第三章 中医人体观念',
+    link: `${path.main}rm03`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}rm03` },
       { text: '3.1 人体基本概念及运转机制', link: `${path.main}rm03-1` },
       { text: '3.2人体元气', link: `${path.main}rm03-2` },
       { text: '3.3人体地气', link: `${path.main}rm03-3` },
@@ -27,9 +27,9 @@ const sidebar = [
   { text: '第七章 判断人体失衡情况', link: `${path.main}rm07` },
   {
     text: '附录',
+    link: `${path.main}rmfu`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}rmfu` },
       { text: '附1：再论中医的阴阳概念', link: `${path.main}rmfu1` },
       { text: '附2：证与病的关系', link: `${path.main}rmfu2` },
       { text: '附3：诊治入门目录', link: `${path.main}zhenzhi` },

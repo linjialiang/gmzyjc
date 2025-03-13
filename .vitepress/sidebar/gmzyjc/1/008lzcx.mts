@@ -7,30 +7,30 @@ const sidebar = [
   { text: '导言', link: `${path.main}daoyan` },
   {
     text: '第一章 概述',
+    link: `${path.main}lzcx01`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}lzcx01` },
       {
         text: '第一节 本学科定义与辨证方法的概念',
+        link: `${path.main}lzcx01-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}lzcx01-0.1.0.0.0` },
           { text: '一、本学科定义', link: `${path.main}lzcx01-0.1.1.0.0` },
           { text: '二、辨证方法的概念', link: `${path.main}lzcx01-0.1.2.0.0` },
         ],
       },
       {
         text: '第二节 中医学思维形式及其特征',
+        link: `${path.main}lzcx01-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}lzcx01-0.2.0.0.0` },
           { text: '一、中医学逻辑思维', link: `${path.main}lzcx01-0.2.1.0.0` },
           { text: '二、中医学直觉思维', link: `${path.main}lzcx01-0.2.2.0.0` },
           {
             text: '三、中医学思维特征',
+            link: `${path.main}lzcx01-0.2.3.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}lzcx01-0.2.3.0.0` },
               { text: '1. 从整体联系、活体功能方面认识病证', link: `${path.main}lzcx01-0.2.3.1.0` },
               { text: '2. 从动态观念、主从关系方面认识病证', link: `${path.main}lzcx01-0.2.3.2.0` },
               { text: '3. 从具体分析个体特征着眼认识病证', link: `${path.main}lzcx01-0.2.3.3.0` },
@@ -42,18 +42,18 @@ const sidebar = [
   },
   {
     text: '第二章 临证须知',
+    link: `${path.main}lzcx02`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}lzcx02` },
       { text: '第一节 自觉加强医德修养', link: `${path.main}lzcx02-0.1.0.0.0` },
       { text: '第二节 勤学苦练临证基本功', link: `${path.main}lzcx02-0.2.0.0.0` },
     ],
   },
   {
     text: '第三章 临证程序',
+    link: `${path.main}lzcx03`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}lzcx03` },
       { text: '第一节 诊察', link: `${path.main}lzcx03-0.1.0.0.0` },
       { text: '第二节 辨证', link: `${path.main}lzcx03-0.2.0.0.0` },
       { text: '第三节 论治', link: `${path.main}lzcx03-0.3.0.0.0` },
@@ -61,16 +61,16 @@ const sidebar = [
   },
   {
     text: '第四章辨证思维方法',
+    link: `${path.main}lzcx04`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}lzcx04` },
       { text: '第一节常用的辨证方法', link: `${path.main}lzcx04-0.1.0.0.0` },
       { text: '第二节常用的辨证思维方法', link: `${path.main}lzcx04-0.2.0.0.0` },
       {
         text: '第三节古今名医辨证思维范例',
+        link: `${path.main}lzcx04-0.3.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}lzcx04-0.3.0.0.0` },
           { text: '一、观索水不欲咽，辨寒盛格阳', link: `${path.main}lzcx04-0.3.1.0.0` },
           { text: '二、察色切脉审证、寻求病因病机', link: `${path.main}lzcx04-0.3.2.0.0` },
           { text: '三、辨脉定位求因', link: `${path.main}lzcx04-0.3.3.0.0` },
@@ -102,15 +102,15 @@ const sidebar = [
   },
   {
     text: '第五章 临证失误的原因',
+    link: `${path.main}lzcx05`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}lzcx05` },
       { text: '第一节 辨证失误的思维原因', link: `${path.main}lzcx05-0.1.0.0.0` },
       {
         text: '第二节 诊治失误原因举例',
+        link: `${path.main}lzcx05-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}lzcx05-0.2.0.0.0` },
           { text: '一、不重视脉诊', link: `${path.main}lzcx05-0.2.1.0.0` },
           { text: '二、不先明阴阳', link: `${path.main}lzcx05-0.2.2.0.0` },
           { text: '三、不细辨真假寒热', link: `${path.main}lzcx05-0.2.3.0.0` },
@@ -133,14 +133,14 @@ const sidebar = [
   },
   {
     text: '第六章 中医病案书写与总结',
+    link: `${path.main}lzcx06`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}lzcx06` },
       {
         text: '第一节 中医病案书写',
+        link: `${path.main}lzcx06-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}lzcx06-0.1.0.0.0` },
           { text: '一、病案的内容', link: `${path.main}lzcx06-0.1.1.0.0` },
           { text: '二、病案书写要求', link: `${path.main}lzcx06-0.1.2.0.0` },
           { text: '三、病案格式', link: `${path.main}lzcx06-0.1.3.0.0` },
@@ -148,9 +148,9 @@ const sidebar = [
       },
       {
         text: '第二节 中医病案总结',
+        link: `${path.main}lzcx06-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}lzcx06-0.2.0.0.0` },
           { text: '一、病案收集的标准', link: `${path.main}lzcx06-0.2.1.0.0` },
           { text: '二、病案总结的内容', link: `${path.main}lzcx06-0.2.2.0.0` },
           { text: '三、病案总结的方法', link: `${path.main}lzcx06-0.2.3.0.0` },

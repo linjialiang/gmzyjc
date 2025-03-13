@@ -8,9 +8,9 @@ const sidebar = [
   { text: '第一章 绪论', link: `${path.main}zywx01` },
   {
     text: '第二章 中医文献的命名',
+    link: `${path.main}zywx02`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}zywx02` },
       { text: '一、以科别命名', link: `${path.main}zywx02-0.1.0.0.0` },
       { text: '二、以病证命名', link: `${path.main}zywx02-0.2.0.0.0` },
       { text: '三；以典故命名', link: `${path.main}zywx02-0.3.0.0.0` },
@@ -25,9 +25,9 @@ const sidebar = [
   },
   {
     text: '第三章 中医文献的卷端副文文体格式',
+    link: `${path.main}zywx03`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}zywx03` },
       { text: '一、题名', link: `${path.main}zywx03-0.1.0.0.0` },
       { text: '二、目次', link: `${path.main}zywx03-0.2.0.0.0` },
       { text: '三、题辞', link: `${path.main}zywx03-0.3.0.0.0` },
@@ -39,18 +39,18 @@ const sidebar = [
   },
   {
     text: '第四章 中医文献的正文文体格式',
+    link: `${path.main}zywx04`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}zywx04` },
       { text: '一、著作体例', link: `${path.main}zywx04-0.1.0.0.0` },
       { text: '二、注释体例', link: `${path.main}zywx04-0.2.0.0.0` },
     ],
   },
   {
     text: '第五章 目录的应用',
+    link: `${path.main}zywx05`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}zywx05` },
       { text: '一、目录的名义', link: `${path.main}zywx05-0.1.0.0.0` },
       { text: '二、学习目录学的意义', link: `${path.main}zywx05-0.2.0.0.0` },
       { text: '三、目录书的分类', link: `${path.main}zywx05-0.3.0.0.0` },
@@ -59,18 +59,18 @@ const sidebar = [
   },
   {
     text: '第六章 小学与训诂',
+    link: `${path.main}zywx06`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}zywx06` },
       { text: '一、训诂应注意的前提问题', link: `${path.main}zywx06-0.1.0.0.0` },
       { text: '二、训诂的步骤方法', link: `${path.main}zywx06-0.2.0.0.0` },
     ],
   },
   {
     text: '第七章 写作与文献整理研究要则',
+    link: `${path.main}zywx07`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}zywx07` },
       { text: '一、充分占有第一手资料', link: `${path.main}zywx07-0.1.0.0.0` },
       { text: '二、引用文献资料须选善本校勘', link: `${path.main}zywx07-0.2.0.0.0` },
       { text: '三、树论立说，重要处必出书证书据', link: `${path.main}zywx07-0.3.0.0.0` },

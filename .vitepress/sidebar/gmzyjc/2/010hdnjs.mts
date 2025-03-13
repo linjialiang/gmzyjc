@@ -7,14 +7,14 @@ const sidebar = [
   { text: '导言', link: `${path.main}daoyan` },
   {
     text: '第一章 总论',
+    link: `${path.main}hdnj01`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj01` },
       {
         text: '一、《内经》的成书年代、沿革及其基本内容',
+        link: `${path.main}hdnj01-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj01-0.1.0.0.0` },
           { text: '（一）《内经》成书的年代', link: `${path.main}hdnj01-0.1.1.0.0` },
           { text: '（二）《内经》的书名与变革', link: `${path.main}hdnj01-0.1.2.0.0` },
           { text: '（三）《内经》的基本内容', link: `${path.main}hdnj01-0.1.3.0.0` },
@@ -22,41 +22,41 @@ const sidebar = [
       },
       {
         text: '二、《内经》的基本学术思想',
+        link: `${path.main}hdnj01-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj01-0.2.0.0.0` },
           {
             text: '（一）物质运动的恒动观',
+            link: `${path.main}hdnj01-0.2.1.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}hdnj01-0.2.1.0.0` },
               { text: '1．“气”是物质世界万物的本源', link: `${path.main}hdnj01-0.2.1.1.0` },
               { text: '2．“气”的运动及其基本形式', link: `${path.main}hdnj01-0.2.1.2.0` },
             ],
           },
           {
             text: '（二）物质运动的规律性',
+            link: `${path.main}hdnj01-0.2.2.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}hdnj01-0.2.2.0.0` },
               { text: '1．阴阳对立统一规律', link: `${path.main}hdnj01-0.2.2.1.0` },
               { text: '2．五行生克乘侮规律', link: `${path.main}hdnj01-0.2.2.2.0` },
             ],
           },
           {
             text: '（三）人与自然的整体观',
+            link: `${path.main}hdnj01-0.2.3.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}hdnj01-0.2.3.0.0` },
               { text: '1．自然界是生命的源泉', link: `${path.main}hdnj01-0.2.3.1.0` },
               { text: '2．人与自然变化的关系', link: `${path.main}hdnj01-0.2.3.2.0` },
             ],
           },
           {
             text: '（四）人体的整体观',
+            link: `${path.main}hdnj01-0.2.4.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}hdnj01-0.2.4.0.0` },
               { text: '1．脏腑组织的内在联系', link: `${path.main}hdnj01-0.2.4.1.0` },
               { text: '2．生命活动的对立统一', link: `${path.main}hdnj01-0.2.4.2.0` },
             ],
@@ -65,9 +65,9 @@ const sidebar = [
       },
       {
         text: '三、《内经》的理论体系',
+        link: `${path.main}hdnj01-0.3.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj01-0.3.0.0.0` },
           { text: '（一）阴阳五行学说', link: `${path.main}hdnj01-0.3.1.0.0` },
           { text: '（二）脏象学说', link: `${path.main}hdnj01-0.3.2.0.0` },
           { text: '（三）经络学说', link: `${path.main}hdnj01-0.3.3.0.0` },
@@ -81,18 +81,18 @@ const sidebar = [
       },
       {
         text: '四、学习《内经》的方法',
+        link: `${path.main}hdnj01-0.4.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj01-0.4.0.0.0` },
           { text: '（一）了解字义音读', link: `${path.main}hdnj01-0.4.1.0.0` },
           { text: '（二）联系有关内容', link: `${path.main}hdnj01-0.4.2.0.0` },
           { text: '（三）联系后世医学', link: `${path.main}hdnj01-0.4.3.0.0` },
           { text: '（四）联系临床实践', link: `${path.main}hdnj01-0.4.4.0.0` },
           {
             text: '（五）参阅各学注本',
+            link: `${path.main}hdnj01-0.4.5.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}hdnj01-0.4.5.0.0` },
               { text: '1．《黄帝内经太素》', link: `${path.main}hdnj01-0.4.5.1.0` },
               { text: '2．《增广补注黄帝内经素问》', link: `${path.main}hdnj01-0.4.5.2.0` },
               { text: '3．《素问注证发微》、《灵枢注证发微》', link: `${path.main}hdnj01-0.4.5.3.0` },
@@ -108,53 +108,53 @@ const sidebar = [
   },
   {
     text: '第二章 人与自然',
+    link: `${path.main}hdnj02`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj02` },
       {
         text: '一、生命的唯物观',
+        link: `${path.main}hdnj02-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj02-0.1.0.0.0` },
-          { text: '（一 ）人类生命源于自然界', link: `${path.main}hdnj02-0.1.1.0.0` },
-          { text: '（二 ）人类生存的自然条件', link: `${path.main}hdnj02-0.1.2.0.0` },
-          { text: '（ 三 ） 生 命 在 于 运 动', link: `${path.main}hdnj02-0.1.3.0.0` },
-          { text: '（ 四 ） 生 命 的 运 动 形 式', link: `${path.main}hdnj02-0.1.4.0.0` },
+          { text: '（一）人类生命源于自然界', link: `${path.main}hdnj02-0.1.1.0.0` },
+          { text: '（二）人类生存的自然条件', link: `${path.main}hdnj02-0.1.2.0.0` },
+          { text: '（三）生 命 在 于 运 动', link: `${path.main}hdnj02-0.1.3.0.0` },
+          { text: '（四）生 命 的 运 动 形 式', link: `${path.main}hdnj02-0.1.4.0.0` },
         ],
       },
       {
         text: '二 、 天人相应的整体观',
+        link: `${path.main}hdnj02-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj02-0.2.0.0.0` },
-          { text: '（ 一 ）人 气 与 天 气 相 通', link: `${path.main}hdnj02-0.2.1.0.0` },
-          { text: '（二 ）五脏之气与天地、 阴阳、 四时、五气相应', link: `${path.main}hdnj02-0.2.2.0.0` },
-          { text: '（ 三 ）经 脉 与 四 时 、 五 气 相 应', link: `${path.main}hdnj02-0.2.3.0.0` },
-          { text: '（ 四 ）顺应四时阴阳的重要性', link: `${path.main}hdnj02-0.2.4.0.0` },
-          { text: '（五 ）适应寒暑的生理变化', link: `${path.main}hdnj02-0.2.5.0.0` },
-          { text: '（六 ）人体与昼夜阴阳相应', link: `${path.main}hdnj02-0.2.6.0.0` },
-          { text: '（七 ）人体气血盛衰与日月相应', link: `${path.main}hdnj02-0.2.7.0.0` },
-          { text: '（ 八 ）阳 气 的 昼 夜 消 长 规 律', link: `${path.main}hdnj02-0.2.8.0.0` },
-          { text: '（ 九 ）气 候 因 素 的 致 病 作 用', link: `${path.main}hdnj02-0.2.9.0.0` },
-          { text: '（十 ）正邪消长的昼夜节律', link: `${path.main}hdnj02-0.2.10.0.0` },
-          { text: '（十 一 ）营卫运行的昼夜节律', link: `${path.main}hdnj02-0.2.11.0.0` },
+          { text: '（一）人 气 与 天 气 相 通', link: `${path.main}hdnj02-0.2.1.0.0` },
+          { text: '（二）五脏之气与天地、 阴阳、 四时、五气相应', link: `${path.main}hdnj02-0.2.2.0.0` },
+          { text: '（三）经 脉 与 四 时 、 五 气 相 应', link: `${path.main}hdnj02-0.2.3.0.0` },
+          { text: '（四）顺应四时阴阳的重要性', link: `${path.main}hdnj02-0.2.4.0.0` },
+          { text: '（五）适应寒暑的生理变化', link: `${path.main}hdnj02-0.2.5.0.0` },
+          { text: '（六）人体与昼夜阴阳相应', link: `${path.main}hdnj02-0.2.6.0.0` },
+          { text: '（七）人体气血盛衰与日月相应', link: `${path.main}hdnj02-0.2.7.0.0` },
+          { text: '（八）阳 气 的 昼 夜 消 长 规 律', link: `${path.main}hdnj02-0.2.8.0.0` },
+          { text: '（九）气 候 因 素 的 致 病 作 用', link: `${path.main}hdnj02-0.2.9.0.0` },
+          { text: '（十）正邪消长的昼夜节律', link: `${path.main}hdnj02-0.2.10.0.0` },
+          { text: '（十一）营卫运行的昼夜节律', link: `${path.main}hdnj02-0.2.11.0.0` },
         ],
       },
       { text: 'gai', link: `${path.main}hdnj02-0.3.0.0.0` },
-      { text: '四、 《内 经 》的自然观', link: `${path.main}hdnj02-0.4.0.0.0` },
+      { text: '四、《内 经》的自然观', link: `${path.main}hdnj02-0.4.0.0.0` },
       { text: '小 结', link: `${path.main}hdnj02-0.5.0.0.0` },
     ],
   },
   {
     text: '第三章 阴阳五行学说',
+    link: `${path.main}hdnj03`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj03` },
       {
         text: '一、阴阳学说',
+        link: `${path.main}hdnj03-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj03-0.1.0.0.0` },
           { text: '（一）阴阳总纲', link: `${path.main}hdnj03-0.1.1.0.0` },
           { text: '（二）四时阴阳之气的运动变化规律', link: `${path.main}hdnj03-0.1.2.0.0` },
           { text: '（三）四时阴阳、寒热的变化规律', link: `${path.main}hdnj03-0.1.3.0.0` },
@@ -185,9 +185,9 @@ const sidebar = [
       },
       {
         text: '二、五行学说',
+        link: `${path.main}hdnj03-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj03-0.2.0.0.0` },
           { text: '（一）五行、阴阳是自然界的根本规律', link: `${path.main}hdnj03-0.2.1.0.0` },
           { text: '（二）天、地、人之间的五行联系', link: `${path.main}hdnj03-0.2.2.0.0` },
           { text: '（三）天地形气的相互关系及其作用', link: `${path.main}hdnj03-0.2.3.0.0` },
@@ -213,14 +213,14 @@ const sidebar = [
   },
   {
     text: '第四章 藏象学说',
+    link: `${path.main}hdnj04`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj04` },
       {
         text: '一、脏 腑',
+        link: `${path.main}hdnj04-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj04-0.1.0.0.0` },
           { text: '（一）五脏功能与形体组织、四时阴阳的关系', link: `${path.main}hdnj04-0.1.1.0.0` },
           { text: '（二）十二脏的生理功能及其相互关系', link: `${path.main}hdnj04-0.1.2.0.0` },
           { text: '（三）心为五脏六腑之大王', link: `${path.main}hdnj04-0.1.3.0.0` },
@@ -246,9 +246,9 @@ const sidebar = [
       },
       {
         text: '二、气血精神',
+        link: `${path.main}hdnj04-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj04-0.2.0.0.0` },
           { text: '（一）精、气、津、液、血、脉的生成和功用', link: `${path.main}hdnj04-0.2.1.0.0` },
           { text: '（二）神的产生及其物质基础', link: `${path.main}hdnj04-0.2.2.0.0` },
           { text: '（三） 神的思维发展过程', link: `${path.main}hdnj04-0.2.3.0.0` },
@@ -262,9 +262,9 @@ const sidebar = [
       },
       {
         text: '三、人体生长发育与寿夭',
+        link: `${path.main}hdnj04-0.3.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj04-0.3.0.0.0` },
           { text: '（一）胚胎发育情况', link: `${path.main}hdnj04-0.3.1.0.0` },
           { text: '（二）人体的生长发育过程', link: `${path.main}hdnj04-0.3.2.0.0` },
           { text: '（三）寿夭与先后天的关系', link: `${path.main}hdnj04-0.3.3.0.0` },
@@ -275,14 +275,14 @@ const sidebar = [
   },
   {
     text: '第五章 经络学说',
+    link: `${path.main}hdnj05`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj05` },
       {
         text: '一、经络的概念与功用',
+        link: `${path.main}hdnj05-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj05-0.1.0.0.0` },
           { text: '（一）经脉与络脉的区别', link: `${path.main}hdnj05-0.1.1.0.0` },
           { text: '（二）经络的生理功能', link: `${path.main}hdnj05-0.1.2.0.0` },
           { text: '（三）经络的重要意义', link: `${path.main}hdnj05-0.1.3.0.0` },
@@ -290,9 +290,9 @@ const sidebar = [
       },
       {
         text: '二、十二经脉',
+        link: `${path.main}hdnj05-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj05-0.2.0.0.0` },
           { text: '（一）十二经脉的走向规律', link: `${path.main}hdnj05-0.2.1.0.0` },
           { text: '（二）十二经脉的表里关系', link: `${path.main}hdnj05-0.2.2.0.0` },
           { text: '（三）十二经脉的循行和主病', link: `${path.main}hdnj05-0.2.3.0.0` },
@@ -304,23 +304,23 @@ const sidebar = [
   },
   {
     text: '第六章 病因病机学说',
+    link: `${path.main}hdnj06`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj06` },
       {
         text: '一、病 因',
+        link: `${path.main}hdnj06-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj06-0.1.0.0.0` },
           { text: '（一）外内病因分类', link: `${path.main}hdnj06-0.1.1.0.0` },
           { text: '（二）病因与病位的差异', link: `${path.main}hdnj06-0.1.2.0.0` },
         ],
       },
       {
         text: '二、发病',
+        link: `${path.main}hdnj06-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj06-0.2.0.0.0` },
           { text: '（一）邪与正在发病中的关系', link: `${path.main}hdnj06-0.2.1.0.0` },
           { text: '（二）四时发病规律', link: `${path.main}hdnj06-0.2.2.0.0` },
           { text: '（三）疫邪致病', link: `${path.main}hdnj06-0.2.3.0.0` },
@@ -333,9 +333,9 @@ const sidebar = [
       },
       {
         text: '三、病机',
+        link: `${path.main}hdnj06-0.3.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj06-0.3.0.0.0` },
           { text: '（一）外邪的传变与病理', link: `${path.main}hdnj06-0.3.1.0.0` },
           { text: '（二）邪伤五体的病变', link: `${path.main}hdnj06-0.3.2.0.0` },
           { text: '（三）五气致病的特点', link: `${path.main}hdnj06-0.3.3.0.0` },
@@ -360,140 +360,140 @@ const sidebar = [
   },
   {
     text: '第七章病证学说',
+    link: `${path.main}hdnj07`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj07` },
       {
         text: '一、风 类',
+        link: `${path.main}hdnj07-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.1.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.1.1.0.0` },
           { text: '（二）证 候', link: `${path.main}hdnj07-0.1.2.0.0` },
         ],
       },
       {
         text: '二、伤寒类',
+        link: `${path.main}hdnj07-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.2.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.2.1.0.0` },
           { text: '（二）证 候', link: `${path.main}hdnj07-0.2.2.0.0` },
         ],
       },
       {
         text: '三、温热病类',
+        link: `${path.main}hdnj07-0.3.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.3.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.3.1.0.0` },
           { text: '（二）证 候', link: `${path.main}hdnj07-0.3.2.0.0` },
         ],
       },
       {
         text: '四、咳嗽类',
+        link: `${path.main}hdnj07-0.4.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.4.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.4.1.0.0` },
           { text: '（二）证 候', link: `${path.main}hdnj07-0.4.2.0.0` },
         ],
       },
       {
         text: '五、消渴病类',
+        link: `${path.main}hdnj07-0.5.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.5.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.5.1.0.0` },
           { text: '（二）证 候', link: `${path.main}hdnj07-0.5.2.0.0` },
         ],
       },
       {
         text: '六、水肿类',
+        link: `${path.main}hdnj07-0.6.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.6.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.6.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.6.2.0.0` },
         ],
       },
       {
         text: '七、痹类',
+        link: `${path.main}hdnj07-0.7.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.7.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.7.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.7.2.0.0` },
         ],
       },
       {
         text: '八、痿类',
+        link: `${path.main}hdnj07-0.8.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.8.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.8.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.8.2.0.0` },
         ],
       },
       {
         text: '九、厥 类',
+        link: `${path.main}hdnj07-0.9.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.9.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.9.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.9.2.0.0` },
         ],
       },
       {
         text: '十、头痛类',
+        link: `${path.main}hdnj07-0.10.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.10.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.10.1.0.0` },
           { text: '（二）证 候', link: `${path.main}hdnj07-0.10.2.0.0` },
         ],
       },
       {
         text: '十一、胁痛类',
+        link: `${path.main}hdnj07-0.11.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.11.0.0.0` },
           { text: '（一）概 论', link: `${path.main}hdnj07-0.11.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.11.2.0.0` },
         ],
       },
       {
         text: '十二、腹痛类',
+        link: `${path.main}hdnj07-0.12.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.12.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.12.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.12.2.0.0` },
         ],
       },
       {
         text: '十三、腰痛类',
+        link: `${path.main}hdnj07-0.13.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.13.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.13.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.13.2.0.0` },
         ],
       },
       {
         text: '十四、肩背痛类',
+        link: `${path.main}hdnj07-0.14.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.14.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.14.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.14.2.0.0` },
         ],
       },
       {
         text: '十五、心胸痛类（附：胃脘痛）',
+        link: `${path.main}hdnj07-0.15.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.15.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.15.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.15.2.0.0` },
           { text: '附：胃脘痛', link: `${path.main}hdnj07-0.15.3.0.0` },
@@ -501,18 +501,18 @@ const sidebar = [
       },
       {
         text: '十六、胀类',
+        link: `${path.main}hdnj07-0.16.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.16.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.16.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.16.2.0.0` },
         ],
       },
       {
         text: '十七、积聚类',
+        link: `${path.main}hdnj07-0.17.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj07-0.17.0.0.0` },
           { text: '（一）概论', link: `${path.main}hdnj07-0.17.1.0.0` },
           { text: '（二）证候', link: `${path.main}hdnj07-0.17.2.0.0` },
         ],
@@ -522,15 +522,15 @@ const sidebar = [
   },
   {
     text: '第八章 诊法学说',
+    link: `${path.main}hdnj08`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj08` },
       { text: '一、诊断的守则和方法', link: `${path.main}hdnj08-0.1.0.0.0` },
       {
         text: '二、四诊',
+        link: `${path.main}hdnj08-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj08-0.2.0.0.0` },
           { text: '（一）望神色', link: `${path.main}hdnj08-0.2.1.0.0` },
           { text: '（二）望形态', link: `${path.main}hdnj08-0.2.2.0.0` },
           { text: '（三）望目色', link: `${path.main}hdnj08-0.2.3.0.0` },
@@ -554,18 +554,18 @@ const sidebar = [
   },
   {
     text: '第九章  治则学说',
+    link: `${path.main}hdnj09`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj09` },
       { text: '一、平调阴阳', link: `${path.main}hdnj09-0.1.0.0.0` },
       { text: '二、补虚泻实', link: `${path.main}hdnj09-0.2.0.0.0` },
       { text: '三、明辨标本', link: `${path.main}hdnj09-0.3.0.0.0` },
       { text: '四、正治反治', link: `${path.main}hdnj09-0.4.0.0.0` },
       {
         text: '五、三因制宜',
+        link: `${path.main}hdnj09-0.5.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj09-0.5.0.0.0` },
           { text: '（一）因时制宜', link: `${path.main}hdnj09-0.5.1.0.0` },
           { text: '（二）因地制宜', link: `${path.main}hdnj09-0.5.2.0.0` },
           { text: '（三）因人制宜', link: `${path.main}hdnj09-0.5.3.0.0` },
@@ -578,9 +578,9 @@ const sidebar = [
   },
   {
     text: '第十章养生学说',
+    link: `${path.main}hdnj10`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj10` },
       { text: '一、养生的意义和方法', link: `${path.main}hdnj10-0.1.0.0.0` },
       { text: '二、导致早衰的原因', link: `${path.main}hdnj10-0.2.0.0.0` },
       { text: '三、养生的基本原则', link: `${path.main}hdnj10-0.3.0.0.0` },
@@ -590,14 +590,14 @@ const sidebar = [
   },
   {
     text: '第十一章运气学说',
+    link: `${path.main}hdnj11`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}hdnj11` },
       {
         text: '一、运气学说的基本概念',
+        link: `${path.main}hdnj11-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj11-0.1.0.0.0` },
           { text: '（一）掌握运气规律的重要性', link: `${path.main}hdnj11-0.1.1.0.0` },
           { text: '（二）五运六气的周期运动规律', link: `${path.main}hdnj11-0.1.2.0.0` },
           { text: '（三）气运的多少盛衰及其变化规律', link: `${path.main}hdnj11-0.1.3.0.0` },
@@ -615,9 +615,9 @@ const sidebar = [
       },
       {
         text: '二、运气学说的基本内容及计算方法',
+        link: `${path.main}hdnj11-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}hdnj11-0.2.0.0.0` },
           { text: '（一）干支甲子', link: `${path.main}hdnj11-0.2.1.0.0` },
           { text: '（二）五运', link: `${path.main}hdnj11-0.2.2.0.0` },
           { text: '（三）六气', link: `${path.main}hdnj11-0.2.3.0.0` },

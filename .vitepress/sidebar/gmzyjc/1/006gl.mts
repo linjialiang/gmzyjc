@@ -8,20 +8,20 @@ const sidebar = [
   { text: '编者的话', link: `${path.main}gl00.0-0.0.2.0.0` },
   {
     text: '绪  论',
+    link: `${path.main}gl00.1`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl00.1` },
       { text: '第一节  中医学理论体系的形成和发展', link: `${path.main}gl00.1-0.1.0.0.0` },
       {
         text: '第二节  中医学的唯物辩证观',
+        link: `${path.main}gl00.1-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl00.1-0.2.0.0.0` },
           {
             text: '一、中医学的唯物观',
+            link: `${path.main}gl00.1-0.2.1.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl00.1-0.2.1.0.0` },
               { text: '（一） 对生命认识的唯物观', link: `${path.main}gl00.1-0.2.1.1.0` },
               { text: '（二） 形神统一的唯物观', link: `${path.main}gl00.1-0.2.1.2.0` },
               { text: '（三） 疾病可知、可防、可治的唯物观', link: `${path.main}gl00.1-0.2.1.3.0` },
@@ -32,14 +32,14 @@ const sidebar = [
       },
       {
         text: '第三节  中医学的基本特点',
+        link: `${path.main}gl00.1-0.3.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl00.1-0.3.0.0.0` },
           {
             text: '一、整体观',
+            link: `${path.main}gl00.1-0.3.1.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl00.1-0.3.1.0.0` },
               { text: '（一）  人体是一个有机整体', link: `${path.main}gl00.1-0.3.1.1.0` },
               { text: '（二）人与自然界的统一性', link: `${path.main}gl00.1-0.3.1.2.0` },
             ],
@@ -51,14 +51,14 @@ const sidebar = [
   },
   {
     text: '第一章  阴阳五行学说',
+    link: `${path.main}gl01`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl01` },
       {
         text: '第一节  阴阳学说',
+        link: `${path.main}gl01-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl01-0.1.0.0.0` },
           { text: '一、阴阳的基本属性', link: `${path.main}gl01-0.1.1.0.0` },
           { text: '二、阴阳的相互关系', link: `${path.main}gl01-0.1.2.0.0` },
           { text: '三、阴阳学说在中医学中的应用', link: `${path.main}gl01-0.1.3.0.0` },
@@ -66,14 +66,14 @@ const sidebar = [
       },
       {
         text: '第二节  五行学说',
+        link: `${path.main}gl01-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl01-0.2.0.0.0` },
           {
             text: '一、五行学说的基本内容',
+            link: `${path.main}gl01-0.2.1.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl01-0.2.1.0.0` },
               { text: '（一） 五行的基本属性', link: `${path.main}gl01-0.2.1.1.0` },
               { text: '（二）五行的相互关系', link: `${path.main}gl01-0.2.1.2.0` },
             ],
@@ -86,23 +86,23 @@ const sidebar = [
   },
   {
     text: '第二章  藏象',
+    link: `${path.main}gl02`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl02` },
       { text: '一、藏象的概念', link: `${path.main}gl02-0.0.1.0.0` },
       { text: '二、藏象学说的主要内容', link: `${path.main}gl02-0.0.2.0.0` },
       { text: '三、藏象学说的形成', link: `${path.main}gl02-0.0.3.0.0` },
       { text: '四、藏象学说的特点', link: `${path.main}gl02-0.0.4.0.0` },
       {
         text: '第一节  脏腑',
+        link: `${path.main}gl02-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl02-0.1.0.0.0` },
           {
             text: '一、五脏六腑',
+            link: `${path.main}gl02-0.1.1.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl02-0.1.1.0.0` },
               { text: '（一）心、小肠（附心胞络）', link: `${path.main}gl02-0.1.1.1.0` },
               { text: '（二）肺、大肠', link: `${path.main}gl02-0.1.1.2.0` },
               { text: '（三）脾、胃', link: `${path.main}gl02-0.1.1.3.0` },
@@ -118,15 +118,15 @@ const sidebar = [
       },
       {
         text: '第二节  精、气、血、津液',
+        link: `${path.main}gl02-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl02-0.2.0.0.0` },
           { text: '一、气', link: `${path.main}gl02-0.2.1.0.0` },
           {
             text: '二、血',
+            link: `${path.main}gl02-0.2.2.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl02-0.2.2.0.0` },
               { text: '（一）血的生成', link: `${path.main}gl02-0.2.3.0.0` },
               { text: '（二）血的功能', link: `${path.main}gl02-0.2.4.0.0` },
               { text: '（三）血的运行', link: `${path.main}gl02-0.2.5.0.0` },
@@ -140,15 +140,15 @@ const sidebar = [
   },
   {
     text: '第三章  经络',
+    link: `${path.main}gl03`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl03` },
       { text: '第一节 经络与经络系统的组成', link: `${path.main}gl03-0.1.0.0.0` },
       {
         text: '第二节  十二经脉',
+        link: `${path.main}gl03-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl03-0.2.0.0.0` },
           { text: '一、十二经脉的命名', link: `${path.main}gl03-0.2.1.0.0` },
           { text: '二、十二经脉的循行走向和交接规律', link: `${path.main}gl03-0.2.2.0.0` },
           { text: '三、十二经脉的表里关系', link: `${path.main}gl03-0.2.3.0.0` },
@@ -165,9 +165,9 @@ const sidebar = [
       { text: '第八节  经络系统的作用', link: `${path.main}gl03-0.8.0.0.0` },
       {
         text: '第九节  经络学说的临床应用',
+        link: `${path.main}gl03-0.9.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl03-0.9.0.0.0` },
           { text: '一、指导临床辨证', link: `${path.main}gl03-0.9.1.0.0` },
           { text: '〔附〕《内经》有关经络病证的原文（仅供临床辨证参考）', link: `${path.main}gl03-0.9.2.0.0` },
           { text: '二、指导临床治疗', link: `${path.main}gl03-0.9.3.0.0` },
@@ -177,19 +177,19 @@ const sidebar = [
   },
   {
     text: '第四章  病因与病机',
+    link: `${path.main}gl04`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl04` },
       {
         text: '第一节  病因',
+        link: `${path.main}gl04-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl04-0.1.0.0.0` },
           {
             text: '一、六淫',
+            link: `${path.main}gl04-0.1.1.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl04-0.1.1.0.0` },
               { text: '（一）风', link: `${path.main}gl04-0.1.1.1.0` },
               { text: '（二）寒', link: `${path.main}gl04-0.1.1.2.0` },
               { text: '（三）暑', link: `${path.main}gl04-0.1.1.3.0` },
@@ -211,14 +211,14 @@ const sidebar = [
   },
   {
     text: '第五章  诊法',
+    link: `${path.main}gl05`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl05` },
       {
         text: '第一节  望诊',
+        link: `${path.main}gl05-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl05-0.1.0.0.0` },
           { text: '一、望神', link: `${path.main}gl05-0.1.1.0.0` },
           { text: '二、望面', link: `${path.main}gl05-0.1.2.0.0` },
           { text: '三、望目', link: `${path.main}gl05-0.1.3.0.0` },
@@ -232,24 +232,24 @@ const sidebar = [
       },
       {
         text: '第二节  闻诊',
+        link: `${path.main}gl05-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl05-0.2.0.0.0` },
           { text: '一、听声音', link: `${path.main}gl05-0.2.1.0.0` },
           { text: '二、嗅气味', link: `${path.main}gl05-0.2.2.0.0` },
         ],
       },
       {
         text: '第三节  问诊',
+        link: `${path.main}gl05-0.3.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl05-0.3.0.0.0` },
           { text: '一、问一般情况', link: `${path.main}gl05-0.3.1.0.0` },
           {
             text: '二、问现在病情',
+            link: `${path.main}gl05-0.3.2.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl05-0.3.2.0.0` },
               { text: '（一）问寒热', link: `${path.main}gl05-0.3.2.1.0` },
               { text: '（二）  问汗', link: `${path.main}gl05-0.3.2.2.0` },
               { text: '（三）问疼痛', link: `${path.main}gl05-0.3.2.3.0` },
@@ -264,9 +264,9 @@ const sidebar = [
       },
       {
         text: '第四节  切诊',
+        link: `${path.main}gl05-0.4.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl05-0.4.0.0.0` },
           { text: '一、脉诊', link: `${path.main}gl05-0.4.1.0.0` },
           { text: '二、按诊', link: `${path.main}gl05-0.4.2.0.0` },
         ],
@@ -275,14 +275,14 @@ const sidebar = [
   },
   {
     text: '第六章 辨证',
+    link: `${path.main}gl06`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl06` },
       {
         text: '第一节八纲辨证',
+        link: `${path.main}gl06-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl06-0.1.0.0.0` },
           { text: '一、八纲辨证的基本内容', link: `${path.main}gl06-0.1.1.0.0` },
           { text: '二、八纲之间的相互关系', link: `${path.main}gl06-0.1.2.0.0` },
         ],
@@ -298,21 +298,20 @@ const sidebar = [
 
   {
     text: '第七章 治则与治法',
+    link: `${path.main}gl07`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl07` },
       {
         text: '第一节 防治原则',
+        link: `${path.main}gl07-0.1.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl07-0.1.0.0.0` },
           { text: '一、预防原则', link: `${path.main}gl07-0.1.1.0.0` },
           {
             text: '二、治疗原则',
+            link: `${path.main}gl07-0.1.2.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl07-0.1.0.0.0` },
-              { text: '概述', link: `${path.main}gl07-0.1.2.0.0` },
               { text: '（一）治病求本', link: `${path.main}gl07-0.1.2.1.0` },
               { text: '（二）扶正祛邪', link: `${path.main}gl07-0.1.2.2.0` },
               { text: '（三）调整阴阳', link: `${path.main}gl07-0.1.2.3.0` },
@@ -323,14 +322,14 @@ const sidebar = [
       },
       {
         text: '第二节  治疗方法',
+        link: `${path.main}gl07-0.2.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl07-0.2.0.0.0` },
           {
             text: '一、内治法',
+            link: `${path.main}gl07-0.2.1.0.0`,
             collapsed: true,
             items: [
-              { text: '概述', link: `${path.main}gl07-0.2.1.0.0` },
               { text: '（一） 汗法', link: `${path.main}gl07-0.2.1.1.0` },
               { text: '（二） 吐法', link: `${path.main}gl07-0.2.1.2.0` },
               { text: '（三） 下法', link: `${path.main}gl07-0.2.1.3.0` },
@@ -349,9 +348,9 @@ const sidebar = [
   },
   {
     text: '第八章  中药学概述',
+    link: `${path.main}gl08`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl08` },
       { text: '第一节 中药的性能', link: `${path.main}gl08-0.1.0.0.0` },
       { text: '第二节  中药的归经', link: `${path.main}gl08-0.2.0.0.0` },
       { text: '第三节  中药的炮制', link: `${path.main}gl08-0.3.0.0.0` },
@@ -362,9 +361,9 @@ const sidebar = [
   },
   {
     text: '第九章  方剂学概述',
+    link: `${path.main}gl09`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl09` },
       { text: '第一节  方剂的组成', link: `${path.main}gl09-0.1.0.0.0` },
       { text: '第二节  方剂的分类', link: `${path.main}gl09-0.2.0.0.0` },
       { text: '第三节  方剂的剂型及应用特点', link: `${path.main}gl09-0.3.0.0.0` },
@@ -372,41 +371,41 @@ const sidebar = [
   },
   {
     text: '第十章   中医药学在医疗上的优势',
+    link: `${path.main}gl10`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl10` },
       { text: '一、医疗思想的先进性', link: `${path.main}gl10-0.1.0.0.0` },
       { text: '二、治疗手段的优越性', link: `${path.main}gl10-0.2.0.0.0` },
     ],
   },
   {
     text: '附：形体骨骼',
+    link: `${path.main}gl11fu`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}gl11fu` },
       {
         text: '一、头面颈项部',
+        link: `${path.main}gl11fu-0.0.1.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl11fu-0.0.1.0.0` },
           { text: '（一） 前、侧面观（见图48、49）', link: `${path.main}gl11fu-0.0.1.1.0` },
           { text: '（二） 背面观（见图50）', link: `${path.main}gl11fu-0.0.1.2.0` },
         ],
       },
       {
         text: '二、躯干部',
+        link: `${path.main}gl11fu-0.0.2.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl11fu-0.0.2.0.0` },
           { text: '（一）  前、侧面观（见图51、52）', link: `${path.main}gl11fu-0.0.2.1.0` },
           { text: '（二）背面观（见图53）', link: `${path.main}gl11fu-0.0.2.2.0` },
         ],
       },
       {
         text: '三、四肢部（见图54、55、56）',
+        link: `${path.main}gl11fu-0.0.3.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}gl11fu-0.0.3.0.0` },
           { text: '（一）上肢（见图54）', link: `${path.main}gl11fu-0.0.3.1.0` },
           { text: '（二） 下肢（见图55、56）', link: `${path.main}gl11fu-0.0.3.2.0` },
         ],

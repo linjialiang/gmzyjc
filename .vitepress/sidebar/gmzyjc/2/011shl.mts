@@ -9,13 +9,13 @@ const sidebar = [
   {
     text: '伤寒论卷第一',
     collapsed: true,
+    link: `${path.main}shl01.01`,
     items: [
-      { text: '概述', link: `${path.main}shl01.01` },
       {
         text: '辨脉法第一',
+        link: `${path.main}shl01.01-1.0.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl01.01-1.0.0.0.0` },
           { text: '概 说', link: `${path.main}shl01.01-1.1.0.0.0` },
           { text: '单元1', link: `${path.main}shl01.01-1.2.0.0.0` },
           { text: '单元2', link: `${path.main}shl01.01-1.3.0.0.0` },
@@ -25,9 +25,9 @@ const sidebar = [
       },
       {
         text: '平脉法第二',
+        link: `${path.main}shl01.02`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl01.02` },
           { text: '概说', link: `${path.main}shl01.02-0.1.0.0.0` },
           { text: '单元1', link: `${path.main}shl01.02-0.2.0.0.0` },
           { text: '单元2', link: `${path.main}shl01.02-0.3.0.0.0` },
@@ -42,15 +42,15 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第二',
+    link: `${path.main}shl02.03`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl02.03` },
       { text: '伤寒例第三', link: `${path.main}shl02.03-1.0.0.0.0` },
       {
         text: '辨痓湿暍脉证第四',
+        link: `${path.main}shl02.04`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl02.04` },
           { text: '概说', link: `${path.main}shl02.04-0.1.0.0.0` },
           { text: '单元1', link: `${path.main}shl02.04-0.2.0.0.0` },
           { text: '单元2', link: `${path.main}shl02.04-0.3.0.0.0` },
@@ -59,9 +59,9 @@ const sidebar = [
       },
       {
         text: '辨太阳病脉证并治上第五',
+        link: `${path.main}shl02.05`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl02.05` },
           { text: '概说', link: `${path.main}shl02.05-0.1.0.0.0` },
           { text: '1-11条', link: `${path.main}shl02.05-0.2.0.0.0` },
           { text: '12-30条', link: `${path.main}shl02.05-0.3.0.0.0` },
@@ -71,14 +71,14 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第三',
+    link: `${path.main}shl03.06`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl03.06` },
       {
         text: '辨太阳病脉证并治中第六',
+        link: `${path.main}shl03.06-1.0.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl03.06-1.0.0.0.0` },
           { text: '概说', link: `${path.main}shl03.06-1.1.0.0.0` },
           { text: '31-41条', link: `${path.main}shl03.06-1.2.0.0.0` },
           { text: '42-57条', link: `${path.main}shl03.06-1.3.0.0.0` },
@@ -96,14 +96,14 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第四',
+    link: `${path.main}shl04.07`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl04.07` },
       {
         text: '辨太阳病脉证并治下第七',
+        link: `${path.main}shl04.07-1.0.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl04.07-1.0.0.0.0` },
           { text: '概说', link: `${path.main}shl04.07-1.1.0.0.0` },
           { text: '128-141条', link: `${path.main}shl04.07-1.2.0.0.0` },
           { text: '142-145条', link: `${path.main}shl04.07-1.3.0.0.0` },
@@ -115,14 +115,14 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第五',
+    link: `${path.main}shl05.08`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl05.08` },
       {
         text: '辨阳明病脉证并治第八',
+        link: `${path.main}shl05.08-1.0.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl05.08-1.0.0.0.0` },
           { text: '概说', link: `${path.main}shl05.08-1.1.0.0.0` },
           { text: '179-188条', link: `${path.main}shl05.08-1.2.0.0.0` },
           { text: '189-198条', link: `${path.main}shl05.08-1.3.0.0.0` },
@@ -140,9 +140,9 @@ const sidebar = [
       },
       {
         text: '辨少阳病脉证并治第九',
+        link: `${path.main}shl05.09`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl05.09` },
           { text: '概说', link: `${path.main}shl05.09-0.1.0.0.0` },
           { text: '263-272条', link: `${path.main}shl05.09-0.2.0.0.0` },
         ],
@@ -151,23 +151,23 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第六',
+    link: `${path.main}shl06.10`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl06.10` },
       {
         text: '辨太阴病脉证并治第十',
+        link: `${path.main}shl06.10-1.0.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl06.10-1.0.0.0.0` },
           { text: '概说', link: `${path.main}shl06.10-1.1.0.0.0` },
           { text: '273-280条', link: `${path.main}shl06.10-1.2.0.0.0` },
         ],
       },
       {
         text: '辨少阴病脉证并治第十一',
+        link: `${path.main}shl06.11`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl06.11` },
           { text: '概说', link: `${path.main}shl06.11-0.1.0.0.0` },
           { text: '281-283条', link: `${path.main}shl06.11-0.2.0.0.0` },
           { text: '284-300条', link: `${path.main}shl06.11-0.3.0.0.0` },
@@ -176,9 +176,9 @@ const sidebar = [
       },
       {
         text: '辨厥阴病脉证并治第十二',
+        link: `${path.main}shl06.12`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl06.12` },
           { text: '概说', link: `${path.main}shl06.12-0.1.0.0.0` },
           { text: '326-380条', link: `${path.main}shl06.12-0.2.0.0.0` },
         ],
@@ -187,23 +187,23 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第七',
+    link: `${path.main}shl07.13`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl07.13` },
       {
         text: '辨霍乱病脉证并治第十三',
+        link: `${path.main}shl07.13-1.0.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl07.13-1.0.0.0.0` },
           { text: '概说', link: `${path.main}shl07.13-1.1.0.0.0` },
           { text: '382-391条', link: `${path.main}shl07.13-1.2.0.0.0` },
         ],
       },
       {
         text: '辨阴阳易差后劳复病脉证并治第十四',
+        link: `${path.main}shl07.14`,
         collapsed: true,
         items: [
-          { text: '概述', link: `${path.main}shl07.14` },
           { text: '概说', link: `${path.main}shl07.14-0.1.0.0.0` },
           { text: '392-398条', link: `${path.main}shl07.14-0.2.0.0.0` },
         ],
@@ -214,9 +214,9 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第八',
+    link: `${path.main}shl08.17`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl08.17` },
       { text: '辨发汗后病脉证并治第十七', link: `${path.main}shl08.17-1.0.0.0.0` },
       { text: '辨不可吐第十八', link: `${path.main}shl08.18` },
       { text: '辨可吐第十九', link: `${path.main}shl08.19` },
@@ -224,20 +224,18 @@ const sidebar = [
   },
   {
     text: '伤寒论卷第九',
+    link: `${path.main}shl09.20`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}shl09.20` },
       { text: '辨不可下病脉证并治第二十', link: `${path.main}shl09.20-1.0.0.0.0` },
       { text: '辨可下病脉证并治第二十一', link: `${path.main}shl09.21` },
     ],
   },
   {
     text: '伤寒论卷第十',
+    link: `${path.main}shl10.22`,
     collapsed: true,
-    items: [
-      { text: '概述', link: `${path.main}shl10.22` },
-      { text: '辨发汗吐下后病脉证并治第二十二', link: `${path.main}shl10.22-1.0.0.0.0` },
-    ],
+    items: [{ text: '辨发汗吐下后病脉证并治第二十二', link: `${path.main}shl10.22-1.0.0.0.0` }],
   },
   { text: '【附】方剂索引', link: `${path.main}shl11` },
   { text: '【电子版附】关于剂量', link: `${path.main}shl12` },

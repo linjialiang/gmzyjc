@@ -6,9 +6,9 @@ const sidebar = [
   { text: '编者说明', link: `${path.main}qs00` },
   {
     text: '一、诊法口诀',
+    link: `${path.main}qs01`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}qs01` },
       { text: '望诊', link: `${path.main}qs01_01` },
       { text: '闻诊', link: `${path.main}qs01_02` },
       { text: '问诊', link: `${path.main}qs01_03` },
@@ -18,9 +18,9 @@ const sidebar = [
   { text: '二、中药口诀', link: `${path.main}qs02` },
   {
     text: '三、方剂口诀',
+    link: `${path.main}qs03`,
     collapsed: true,
     items: [
-      { text: '概述', link: `${path.main}qs03` },
       { text: '解表剂', link: `${path.main}qs03_01` },
       { text: '涌吐剂', link: `${path.main}qs03_02` },
       { text: '泻下剂', link: `${path.main}qs03_03` },
