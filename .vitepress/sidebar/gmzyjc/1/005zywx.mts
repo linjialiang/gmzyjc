@@ -47,15 +47,6 @@ const sidebar = [
     ],
   },
   {
-    text: '第四章 中医文献的正文文体格式',
-    collapsed: true,
-    items: [
-      { text: '概述', link: `${path.main}zywx04` },
-      { text: '一、著作体例', link: `${path.main}zywx04-0.1.0.0.0` },
-      { text: '二、注释体例', link: `${path.main}zywx04-0.2.0.0.0` },
-    ],
-  },
-  {
     text: '第五章 目录的应用',
     collapsed: true,
     items: [
