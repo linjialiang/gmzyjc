@@ -3,13 +3,6 @@ const path = {
 };
 
 const sidebar = [
-  { text: '作者简介', link: `${path.main}rm000` },
-  {
-    text: '第三章 中医人体观念',
-    collapsed: true,
-    items: [{ text: '概述', link: `${path.main}rm03` }],
-  },
-
   { text: '编者', link: `${path.main}gl00.0-0.0.1.0.0` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '编者的话', link: `${path.main}gl00.0-0.0.2.0.0` },
