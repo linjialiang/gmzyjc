@@ -8,7 +8,7 @@ const sidebar = [
     text: '一、诊法口诀',
     collapsed: true,
     items: [
-      { text: '概论', link: `${path.main}qs01` },
+      { text: '概述', link: `${path.main}qs01` },
       { text: '望诊', link: `${path.main}qs01_01` },
       { text: '闻诊', link: `${path.main}qs01_02` },
       { text: '问诊', link: `${path.main}qs01_03` },
@@ -20,7 +20,7 @@ const sidebar = [
     text: '三、方剂口诀',
     collapsed: true,
     items: [
-      { text: '概论', link: `${path.main}qs03` },
+      { text: '概述', link: `${path.main}qs03` },
       { text: '解表剂', link: `${path.main}qs03_01` },
       { text: '涌吐剂', link: `${path.main}qs03_02` },
       { text: '泻下剂', link: `${path.main}qs03_03` },
