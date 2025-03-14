@@ -192,8 +192,8 @@ const sidebar = [
           { text: '（一）五行、阴阳是自然界的根本规律', link: `${path.main}hdnj03-0.2.1.0.0` },
           { text: '（二）天、地、人之间的五行联系', link: `${path.main}hdnj03-0.2.2.0.0` },
           { text: '（三）天地形气的相互关系及其作用', link: `${path.main}hdnj03-0.2.3.0.0` },
-          { text: '（四） 五气的生成和常变', link: `${path.main}hdnj03-0.2.4.0.0` },
-          { text: '（五） 五行气运的相生规律', link: `${path.main}hdnj03-0.2.5.0.0` },
+          { text: '（四）五气的生成和常变', link: `${path.main}hdnj03-0.2.4.0.0` },
+          { text: '（五）五行气运的相生规律', link: `${path.main}hdnj03-0.2.5.0.0` },
           { text: '（六）五行气运的相克规律', link: `${path.main}hdnj03-0.2.6.0.0` },
           { text: '（七）五行气运的相乘相侮', link: `${path.main}hdnj03-0.2.7.0.0` },
           { text: '（八）五行乘侮对疾病的影响', link: `${path.main}hdnj03-0.2.8.0.0` },
@@ -252,7 +252,7 @@ const sidebar = [
         items: [
           { text: '（一）精、气、津、液、血、脉的生成和功用', link: `${path.main}hdnj04-0.2.1.0.0` },
           { text: '（二）神的产生及其物质基础', link: `${path.main}hdnj04-0.2.2.0.0` },
-          { text: '（三） 神的思维发展过程', link: `${path.main}hdnj04-0.2.3.0.0` },
+          { text: '（三）神的思维发展过程', link: `${path.main}hdnj04-0.2.3.0.0` },
           { text: '（四）血气精神的重要作用', link: `${path.main}hdnj04-0.2.4.0.0` },
           { text: '（五）营卫的生成和功能', link: `${path.main}hdnj04-0.2.5.0.0` },
           { text: '（六）宗气的生成和功用', link: `${path.main}hdnj04-0.2.6.0.0` },
@@ -554,7 +554,7 @@ const sidebar = [
     ],
   },
   {
-    text: '第九章  治则学说',
+    text: '第九章 治则学说',
     link: `${path.main}hdnj09`,
     collapsed: true,
     items: [
@@ -578,7 +578,7 @@ const sidebar = [
     ],
   },
   {
-    text: '第十章养生学说',
+    text: '第十章 养生学说',
     link: `${path.main}hdnj10`,
     collapsed: true,
     items: [
@@ -590,7 +590,7 @@ const sidebar = [
     ],
   },
   {
-    text: '第十一章运气学说',
+    text: '第十一章 运气学说',
     link: `${path.main}hdnj11`,
     collapsed: true,
     items: [
