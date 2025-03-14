@@ -155,7 +155,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第六章   虫病证门',
+        text: '第六章 虫病证门',
         link: `${path.main}nkgl06`,
         collapsed: true,
         items: [
@@ -166,7 +166,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第七章     地方病证门',
+        text: '第七章 地方病证门',
         link: `${path.main}nkgl07`,
         collapsed: true,
         items: [
@@ -177,7 +177,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第八章   职业病证门',
+        text: '第八章 职业病证门',
         link: `${path.main}nkgl08`,
         collapsed: true,
         items: [
