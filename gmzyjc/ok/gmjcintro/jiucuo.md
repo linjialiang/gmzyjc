@@ -6,7 +6,7 @@
 
 ### 1、基本纠错流程
 
-<video id="video" controls="" preload="none" width="100%"  poster="img/jiucuopost.png">
+<video id="video" controls="" preload="none" width="100%"  poster="./img/jiucuopost.png">
 <source id="mp4" src="./img/jiucuo.mp4" type="video/mp4">
 </video>
 
@@ -18,7 +18,7 @@
 
 大家校对的时候，有时会产生冲突，其原因如下：
 
-<video id="video" controls="" preload="none" width="100%"  poster="img/chongtu.png">
+<video id="video" controls="" preload="none" width="100%"  poster="./img/chongtu.png">
 <source id="mp4" src="./img/chongtu.mp4" type="video/mp4">
 </video>
 
