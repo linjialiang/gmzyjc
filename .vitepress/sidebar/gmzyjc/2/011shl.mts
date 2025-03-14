@@ -17,7 +17,7 @@ const sidebar = [
         link: `${path.main}shl01.01-1.0.0.0.0`,
         collapsed: true,
         items: [
-          { text: '概 说', link: `${path.main}shl01.01-1.1.0.0.0` },
+          { text: '概说', link: `${path.main}shl01.01-1.1.0.0.0` },
           { text: '单元1', link: `${path.main}shl01.01-1.2.0.0.0` },
           { text: '单元2', link: `${path.main}shl01.01-1.3.0.0.0` },
           { text: '单元3', link: `${path.main}shl01.01-1.4.0.0.0` },
