@@ -121,7 +121,7 @@ export default defineConfig({
       '/gmzyjc/ok/fxj/': sidebar.fxj,
       '/gmzyjc/ok/mj/': sidebar.mj,
       '/gmzyjc/ok/lk/': sidebar.lk,
-      '/gmzyjc/ok/l/': sidebar.shltm,
+      '/gmzyjc/ok/shltm/': sidebar.shltm,
       // 总书目
       '/gmzyjc/ok/': sidebar.gmzyjc,
     },
