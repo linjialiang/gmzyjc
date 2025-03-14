@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《黄帝内经讲解》' },
   { text: '编者与编者的话', link: `${path.main}hdnjs0000` },
   { text: '导言', link: `${path.main}daoyan` },
   {

@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《针灸学-中》' },
   { text: '中篇 针灸术', link: `${path.main}zjz01` },
   {
     text: '第一章毫针',

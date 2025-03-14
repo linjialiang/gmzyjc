@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《中医骨伤科学》' },
   { text: '编者与编者的话', link: `${path.main}gk00` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '第一章 骨伤科学发展简况', link: `${path.main}gk01` },

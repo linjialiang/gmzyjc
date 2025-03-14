@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《中医儿科学》' },
   { text: '编者与编者的话', link: `${path.main}ek0000` },
   { text: '导言', link: `${path.main}daoyan` },
   {

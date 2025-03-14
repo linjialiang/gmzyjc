@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《针灸学-上》' },
   { text: '《针灸学》电子版录入说明', link: `${path.main}zjs0` },
   { text: '编者与编者的话', link: `${path.main}zjs0-0` },
   { text: '导言', link: `${path.main}daoyan` },

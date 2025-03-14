@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《中医外科学》' },
   { text: '编者与编者的话', link: `${path.main}wk00bz`, collapsed: true, items: [] },
   { text: '编者', link: `${path.main}wk00bz-0.1.0.0.0` },
   { text: '编者的话', link: `${path.main}wk00bz-0.2.0.0.0` },

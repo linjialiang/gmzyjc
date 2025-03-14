@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《方剂讲解》' },
   { text: '编者', link: `${path.main}fjs0.1bz` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '编者的话', link: `${path.main}fjs0.2bzdh` },

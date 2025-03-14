@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《金匮要略讲解》' },
   { text: '编者与编者的话', link: `${path.main}jgyl0000` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '绪论', link: `${path.main}jgyl00` },

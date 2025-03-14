@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《中西医结合临床成果》' },
   { text: '编者与编者的话', link: `${path.main}zxyjh00` },
   { text: '导言', link: `${path.main}daoyan` },
   {

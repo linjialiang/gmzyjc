@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《针灸学-下》' },
   { text: '下篇 治疗', link: `${path.main}zjx1.1` },
   {
     text: '第一章  治疗总论',

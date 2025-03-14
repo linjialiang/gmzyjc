@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《伤寒论讲解》' },
   { text: '编者与编者的话', link: `${path.main}shl00` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '绪论', link: `${path.main}shl0000` },

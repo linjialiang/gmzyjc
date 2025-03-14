@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《名医医案选读》' },
   {
     text: '编者与编者的话',
     link: `${path.main}ya00`,

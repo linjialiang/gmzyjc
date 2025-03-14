@@ -3,6 +3,7 @@ const path = {
 };
 
 const sidebar = [
+  { text: '《本草备要讲解》' },
   { text: '编者', link: `${path.main}bc00.0` },
   { text: '导言', link: `${path.main}daoyan` },
   { text: '编者的话', link: `${path.main}bc00.0-1.0.0.0.0` },
