@@ -5,7 +5,6 @@ const path = {
 const nav = [
   {
     text: '第一学年',
-    link: '/1',
     collapsed: true,
     items: [
       { text: '《了解光明》', link: `${path.main}gmzy/gmzy001` },
@@ -19,7 +18,6 @@ const nav = [
   },
   {
     text: '第二学年',
-    link: '/2',
     collapsed: true,
     items: [
       { text: '《黄帝内经讲解》', link: `${path.main}hdnjs/hdnjs0000` },
@@ -31,7 +29,6 @@ const nav = [
   },
   {
     text: '第三学年',
-    link: '/3',
     collapsed: true,
     items: [
       { text: '《中医内科学》', link: `${path.main}nk/nk00` },
@@ -44,7 +41,6 @@ const nav = [
   },
   {
     text: '第四学年',
-    link: '/4',
     collapsed: true,
     items: [
       { text: '《针灸学-上》', link: `${path.main}zjs/zjs0` },
@@ -59,7 +55,6 @@ const nav = [
   },
   {
     text: '其他书籍',
-    link: '/other',
     collapsed: true,
     items: [
       { text: '《光明人物》', link: `${path.main}gmrw/吕炳奎` },
