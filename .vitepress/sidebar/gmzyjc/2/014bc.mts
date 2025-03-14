@@ -159,7 +159,7 @@ const sidebar = [
             ],
           },
           {
-            text: '第二节  清热燥湿药',
+            text: '第二节 清热燥湿药',
             link: `${path.main}bc03-0.2.0.0.0`,
             collapsed: true,
             items: [
@@ -308,7 +308,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第七章  温里药',
+        text: '第七章 温里药',
         link: `${path.main}bc07`,
         collapsed: true,
         items: [

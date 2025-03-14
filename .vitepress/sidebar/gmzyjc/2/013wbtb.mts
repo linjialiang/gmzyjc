@@ -75,7 +75,7 @@ const sidebar = [
         link: `${path.main}wbtb1gl02`,
         collapsed: true,
         items: [
-          { text: '风温    温热    温疫    温毒    冬温', link: `${path.main}wbtb1gl02-0.1.0.0.0` },
+          { text: '风温 温热 温疫 温毒 冬温', link: `${path.main}wbtb1gl02-0.1.0.0.0` },
           { text: '暑温 伏暑', link: `${path.main}wbtb1gl02-0.2.0.0.0` },
           { text: '寒湿', link: `${path.main}wbtb1gl02-0.3.0.0.0` },
           { text: '湿温(疟、痢、疸、痹附）', link: `${path.main}wbtb1gl02-0.4.0.0.0` },
@@ -88,8 +88,8 @@ const sidebar = [
         link: `${path.main}wbtb1gl03`,
         collapsed: true,
         items: [
-          { text: '风温  温热  温疫  温毒  冬温', link: `${path.main}wbtb1gl03-0.1.0.0.0` },
-          { text: '暑温  伏暑', link: `${path.main}wbtb1gl03-0.4.0.0.0` },
+          { text: '风温 温热 温疫 温毒 冬温', link: `${path.main}wbtb1gl03-0.1.0.0.0` },
+          { text: '暑温 伏暑', link: `${path.main}wbtb1gl03-0.4.0.0.0` },
           { text: '寒湿（便血、咳嗽、疝瘕附）', link: `${path.main}wbtb1gl03-0.5.0.0.0` },
           { text: '湿温（疟、痢、痘、痹附）', link: `${path.main}wbtb1gl03-0.6.0.0.0` },
           { text: '秋燥', link: `${path.main}wbtb1gl03-0.7.0.0.0` },
