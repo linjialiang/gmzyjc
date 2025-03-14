@@ -19,7 +19,7 @@ hero:
           text: 光明教材电子化公益项目
           link: /gmzyjc/README
         - theme: alt
-          text: 光明中医教程官网
+          text: 光明中医教程官网[现无法访问]
           link: https://www.gmzyjc.com/site/
 
 features:
