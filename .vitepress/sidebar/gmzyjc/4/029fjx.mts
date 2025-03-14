@@ -13,7 +13,7 @@ const sidebar = [
     collapsed: true,
     items: [
       {
-        text: '第一章    方剂与临床应用',
+        text: '第一章 方剂与临床应用',
         link: `${path.main}fjs01`,
         collapsed: true,
         items: [
@@ -21,10 +21,10 @@ const sidebar = [
           { text: '二、治疗大法', link: `${path.main}fjs1-0.1.2.0.0` },
         ],
       },
-      { text: '第二章    方剂的配伍组合', link: `${path.main}fjs02` },
-      { text: '第三章    剂型的种类', link: `${path.main}fjs03` },
+      { text: '第二章 方剂的配伍组合', link: `${path.main}fjs02` },
+      { text: '第三章 剂型的种类', link: `${path.main}fjs03` },
       {
-        text: '第四章    方剂的用法',
+        text: '第四章 方剂的用法',
         link: `${path.main}fjs04`,
         collapsed: true,
         items: [
@@ -41,7 +41,7 @@ const sidebar = [
     collapsed: true,
     items: [
       {
-        text: '第一章  解表剂',
+        text: '第一章 解表剂',
         link: `${path.main}fjx01`,
         collapsed: true,
         items: [
@@ -56,7 +56,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第二章  和解剂',
+        text: '第二章 和解剂',
         link: `${path.main}fjx02`,
         collapsed: true,
         items: [
@@ -66,7 +66,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第三章  攻里剂',
+        text: '第三章 攻里剂',
         link: `${path.main}fjx03`,
         collapsed: true,
         items: [
@@ -75,7 +75,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第四章  清热剂',
+        text: '第四章 清热剂',
         link: `${path.main}fjx04`,
         collapsed: true,
         items: [
@@ -98,7 +98,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第五章  温阳剂',
+        text: '第五章 温阳剂',
         link: `${path.main}fjx05`,
         collapsed: true,
         items: [
@@ -108,7 +108,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第六章  消导剂',
+        text: '第六章 消导剂',
         link: `${path.main}fjx06`,
         collapsed: true,
         items: [
@@ -117,7 +117,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第七章  补益剂',
+        text: '第七章 补益剂',
         link: `${path.main}fjx07`,
         collapsed: true,
         items: [
@@ -136,7 +136,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第八章  理气剂',
+        text: '第八章 理气剂',
         link: `${path.main}fjx08`,
         collapsed: true,
         items: [
@@ -148,7 +148,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第九章  理血剂',
+        text: '第九章 理血剂',
         link: `${path.main}fjx09`,
         collapsed: true,
         items: [
@@ -161,7 +161,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十章  祛湿剂',
+        text: '第十章 祛湿剂',
         link: `${path.main}fjx10`,
         collapsed: true,
         items: [
@@ -179,7 +179,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十一章  润燥剂',
+        text: '第十一章 润燥剂',
         link: `${path.main}fjx11`,
         collapsed: true,
         items: [
@@ -191,7 +191,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十二章  除痰剂',
+        text: '第十二章 除痰剂',
         link: `${path.main}fjx12`,
         collapsed: true,
         items: [
@@ -203,7 +203,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十三章  固涩剂',
+        text: '第十三章 固涩剂',
         link: `${path.main}fjx13`,
         collapsed: true,
         items: [
@@ -213,7 +213,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十四章  杀虫剂',
+        text: '第十四章 杀虫剂',
         link: `${path.main}fjx14`,
         collapsed: true,
         items: [
@@ -222,13 +222,13 @@ const sidebar = [
         ],
       },
       {
-        text: '第十五章  涌吐剂',
+        text: '第十五章 涌吐剂',
         link: `${path.main}fjx15`,
         collapsed: true,
         items: [{ text: '瓜蒂散《伤寒论》', link: `${path.main}fjx15-0.1.0.0.0` }],
       },
       {
-        text: '第十六章  治风剂',
+        text: '第十六章 治风剂',
         link: `${path.main}fjx16`,
         collapsed: true,
         items: [
@@ -244,7 +244,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十七章  疮疡剂',
+        text: '第十七章 疮疡剂',
         link: `${path.main}fjx17`,
         collapsed: true,
         items: [
@@ -256,7 +256,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十八章  经产剂',
+        text: '第十八章 经产剂',
         link: `${path.main}fjx18`,
         collapsed: true,
         items: [
@@ -268,7 +268,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第十九章  开窍剂',
+        text: '第十九章 开窍剂',
         link: `${path.main}fjx19`,
         collapsed: true,
         items: [

@@ -45,7 +45,7 @@ const sidebar = [
     ],
   },
   {
-    text: '第二章   灸 法    附:拔火罐疗法',
+    text: '第二章 灸 法 附:拔火罐疗法',
     link: `${path.main}zjz02`,
     collapsed: true,
     items: [

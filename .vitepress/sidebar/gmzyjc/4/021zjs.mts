@@ -13,9 +13,9 @@ const sidebar = [
     link: `${path.main}zjs1-1.0.0.0.0`,
     collapsed: true,
     items: [
-      { text: '第一节  经络的含义与经络学说的形成', link: `${path.main}zjs1-1.1.0.0.0` },
+      { text: '第一节 经络的含义与经络学说的形成', link: `${path.main}zjs1-1.1.0.0.0` },
       {
-        text: '第二节  经络系统的组成',
+        text: '第二节 经络系统的组成',
         link: `${path.main}zjs1-1.2.0.0.0`,
         collapsed: true,
         items: [
@@ -28,7 +28,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第三节  经络的标本、根结与气街、四海',
+        text: '第三节 经络的标本、根结与气街、四海',
         link: `${path.main}zjs1-1.3.0.0.0`,
         collapsed: true,
         items: [
@@ -39,7 +39,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第四节  经络的生理功能和病理反应',
+        text: '第四节 经络的生理功能和病理反应',
         link: `${path.main}zjs1-1.4.0.0.0`,
         collapsed: true,
         items: [
@@ -48,7 +48,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第五节  经络的临床应用',
+        text: '第五节 经络的临床应用',
         link: `${path.main}zjs1-1.5.0.0.0`,
         collapsed: true,
         items: [
@@ -59,16 +59,16 @@ const sidebar = [
     ],
   },
   {
-    text: '第二章  腧穴总论',
+    text: '第二章 腧穴总论',
     link: `${path.main}zjs2`,
     collapsed: true,
     items: [
-      { text: '第一节  腧穴的概念和命名', link: `${path.main}zjs2-0.1.0.0.0` },
-      { text: '第二节  腧穴的分类', link: `${path.main}zjs2-0.2.0.0.0` },
-      { text: '第三节  腧穴的功能', link: `${path.main}zjs2-0.3.0.0.0` },
-      { text: '第四节  腧穴的作用', link: `${path.main}zjs2-0.4.0.0.0` },
+      { text: '第一节 腧穴的概念和命名', link: `${path.main}zjs2-0.1.0.0.0` },
+      { text: '第二节 腧穴的分类', link: `${path.main}zjs2-0.2.0.0.0` },
+      { text: '第三节 腧穴的功能', link: `${path.main}zjs2-0.3.0.0.0` },
+      { text: '第四节 腧穴的作用', link: `${path.main}zjs2-0.4.0.0.0` },
       {
-        text: '第五节  十四经穴主治规律',
+        text: '第五节 十四经穴主治规律',
         link: `${path.main}zjs2-0.5.0.0.0`,
         collapsed: true,
         items: [
@@ -77,10 +77,10 @@ const sidebar = [
           { text: '〔临床应用〕', link: `${path.main}zjs2-0.5.3.0.0` },
         ],
       },
-      { text: '第六节  穴性归类', link: `${path.main}zjs2-0.6.0.0.0` },
-      { text: '第七节  腧穴的定位', link: `${path.main}zjs2-0.7.0.0.0` },
-      { text: '第八节  特定穴', link: `${path.main}zjs2-0.8.0.0.0` },
-      { text: '第九节  古代体表部位名称解释', link: `${path.main}zjs2-0.9.0.0.0` },
+      { text: '第六节 穴性归类', link: `${path.main}zjs2-0.6.0.0.0` },
+      { text: '第七节 腧穴的定位', link: `${path.main}zjs2-0.7.0.0.0` },
+      { text: '第八节 特定穴', link: `${path.main}zjs2-0.8.0.0.0` },
+      { text: '第九节 古代体表部位名称解释', link: `${path.main}zjs2-0.9.0.0.0` },
     ],
   },
   {
@@ -126,8 +126,8 @@ const sidebar = [
             link: `${path.main}zjs3.1.1-3-0.1.2.0.0`,
             collapsed: true,
             items: [
-              { text: '（一）  分布络属', link: `${path.main}zjs3.1.1-3-0.1.2.1.0` },
-              { text: '（二）  本经证候：', link: `${path.main}zjs3.1.1-3-0.1.2.2.0` },
+              { text: '（一）分布络属', link: `${path.main}zjs3.1.1-3-0.1.2.1.0` },
+              { text: '（二）本经证候：', link: `${path.main}zjs3.1.1-3-0.1.2.2.0` },
               {
                 text: '（三）腧穴分述',
                 link: `${path.main}zjs3.1.1-3-0.1.2.3.0`,
@@ -709,7 +709,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第三节  十五络脉',
+        text: '第三节 十五络脉',
         link: `${path.main}zjs3.3-0.1.0.0.0`,
         collapsed: true,
         items: [

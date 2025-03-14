@@ -38,7 +38,7 @@ const sidebar = [
       { text: '1.17 姚僧垣治宿食案', link: `${path.main}ya01-0.17.0.0.0` },
       { text: '1.18 马嗣明治背肿案', link: `${path.main}ya01-0.18.0.0.0` },
       { text: '1.19 许胤宗治不语案', link: `${path.main}ya01-0.19.0.0.0` },
-      { text: '1.20  巢元方治风逆案', link: `${path.main}ya01-0.20.0.0.0` },
+      { text: '1.20 巢元方治风逆案', link: `${path.main}ya01-0.20.0.0.0` },
       { text: '1.21 甄权治风痹案', link: `${path.main}ya01-0.21.0.0.0` },
       { text: '1.22 孙思邈治寒痹案', link: `${path.main}ya01-0.22.0.0.0` },
       { text: '1.23 孙思邈自治丹毒案', link: `${path.main}ya01-0.23.0.0.0` },

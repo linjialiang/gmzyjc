@@ -10,9 +10,9 @@ const sidebar = [
     link: `${path.main}zjx1.1-1.0.0.0.0`,
     collapsed: true,
     items: [
-      { text: '笫一节  针灸治病原理', link: `${path.main}zjx1.1-1.1.0.0.0` },
-      { text: '第二节  针灸治则', link: `${path.main}zjx1.2` },
-      { text: '第三节  八法在针灸临床上的运用', link: `${path.main}zjx1.3` },
+      { text: '笫一节 针灸治病原理', link: `${path.main}zjx1.1-1.1.0.0.0` },
+      { text: '第二节 针灸治则', link: `${path.main}zjx1.2` },
+      { text: '第三节 八法在针灸临床上的运用', link: `${path.main}zjx1.3` },
       {
         text: '第四节辨证立法',
         link: `${path.main}zjx1.4`,
@@ -24,7 +24,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第五节  特定穴的应用',
+        text: '第五节 特定穴的应用',
         link: `${path.main}zjx1.5`,
         collapsed: true,
         items: [
@@ -39,7 +39,7 @@ const sidebar = [
           { text: '〔临床应用〕', link: `${path.main}zjx1.5-0.0.9.0.0` },
         ],
       },
-      { text: '第六节  配方与选穴', link: `${path.main}zjx1.6`, collapsed: true, items: [] },
+      { text: '第六节 配方与选穴', link: `${path.main}zjx1.6`, collapsed: true, items: [] },
       { text: '一、配方种类', link: `${path.main}zjx1.6-0.0.1.0.0` },
       { text: '二、配方原则', link: `${path.main}zjx1.6-0.0.2.0.0` },
       {
@@ -70,7 +70,7 @@ const sidebar = [
       { text: '四、配方时应注意的问题', link: `${path.main}zjx1.6-0.0.4.0.0` },
       { text: '〔临床应用〕', link: `${path.main}zjx1.6-0.0.5.0.0` },
       {
-        text: '第七节  症状治疗取穴',
+        text: '第七节 症状治疗取穴',
         link: `${path.main}zjx1.7`,
         collapsed: true,
         items: [
@@ -102,7 +102,7 @@ const sidebar = [
     collapsed: true,
     items: [
       {
-        text: '第一节  内科疾病',
+        text: '第一节 内科疾病',
         link: `${path.main}zjx2.1.1-0.1.0.0.0`,
         collapsed: true,
         items: [
@@ -137,7 +137,7 @@ const sidebar = [
           { text: '面痛', link: `${path.main}zjx2.1.4-0.0.2.0.0` },
           { text: '面瘫', link: `${path.main}zjx2.1.4-0.0.3.0.0` },
           { text: '眩晕', link: `${path.main}zjx2.1.4-0.0.4.0.0` },
-          { text: '痹证  附：坐骨神经痛', link: `${path.main}zjx2.1.4-0.0.5.0.0` },
+          { text: '痹证 附：坐骨神经痛', link: `${path.main}zjx2.1.4-0.0.5.0.0` },
           { text: '痿证 附：多发性神经炎', link: `${path.main}zjx2.1.4-0.0.6.0.0` },
           { text: '腰痛', link: `${path.main}zjx2.1.4-0.0.7.0.0` },
           { text: '落枕', link: `${path.main}zjx2.1.4-0.0.8.0.0` },
@@ -145,12 +145,12 @@ const sidebar = [
         ],
       },
       {
-        text: '第二节  外科疾病',
+        text: '第二节 外科疾病',
         link: `${path.main}zjx2.2`,
         collapsed: true,
         items: [
           { text: '疔疮', link: `${path.main}zjx2.2-0.0.1.0.0` },
-          { text: '乳痈  附：乳癖', link: `${path.main}zjx2.2-0.0.2.0.0` },
+          { text: '乳痈 附：乳癖', link: `${path.main}zjx2.2-0.0.2.0.0` },
           { text: '肠痈', link: `${path.main}zjx2.2-0.0.3.0.0` },
           { text: '痔疮', link: `${path.main}zjx2.2-0.0.4.0.0` },
           { text: '瘰疬', link: `${path.main}zjx2.2-0.0.5.0.0` },
@@ -166,7 +166,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第三节  妇科疾病',
+        text: '第三节 妇科疾病',
         link: `${path.main}zjx2.3`,
         collapsed: true,
         items: [
@@ -186,14 +186,14 @@ const sidebar = [
         ],
       },
       {
-        text: '第四节  儿科疾病',
+        text: '第四节 儿科疾病',
         link: `${path.main}zjx2.4`,
         collapsed: true,
         items: [
           { text: '顿咳', link: `${path.main}zjx2.4-0.0.1.0.0` },
           { text: '小儿泄泻', link: `${path.main}zjx2.4-0.0.2.0.0` },
           { text: '疳疾', link: `${path.main}zjx2.4-0.0.3.0.0` },
-          { text: '急惊风  附：慢惊风', link: `${path.main}zjx2.4-0.0.4.0.0` },
+          { text: '急惊风 附：慢惊风', link: `${path.main}zjx2.4-0.0.4.0.0` },
           { text: '小儿痿证', link: `${path.main}zjx2.4-0.0.5.0.0` },
           { text: '小儿遗尿', link: `${path.main}zjx2.4-0.0.6.0.0` },
           { text: '痄腮', link: `${path.main}zjx2.4-0.0.7.0.0` },
@@ -221,7 +221,7 @@ const sidebar = [
         ],
       },
       {
-        text: '第六节    急重症',
+        text: '第六节 急重症',
         link: `${path.main}zjx2.6`,
         collapsed: true,
         items: [
@@ -236,7 +236,7 @@ const sidebar = [
     ],
   },
   {
-    text: '附篇    参考资料',
+    text: '附篇 参考资料',
     link: `${path.main}zjx3`,
     collapsed: true,
     items: [
