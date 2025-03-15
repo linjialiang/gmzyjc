@@ -13,7 +13,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '光明中医教材',
   description: '光明中医教材电子版，邀请大家共同来完善！',
-  head: [['link', { rel: 'icon', href: '/static/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/static/favicon.png' }]],
   lastUpdated: false,
   markdown: {
     lineNumbers: false,
