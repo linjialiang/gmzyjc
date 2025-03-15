@@ -125,7 +125,7 @@ export default defineConfig({
       '/gmzyjc/ok/lk/': sidebar.lk,
       '/gmzyjc/ok/shltm/': sidebar.shltm,
       // 总书目
-      '/gmzyjc/ok/': sidebar.gmzyjc,
+      '/': sidebar.gmzyjc,
     },
     footer: {
       message: '光明中医教材电子化',
