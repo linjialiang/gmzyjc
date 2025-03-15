@@ -7,7 +7,9 @@ export default defineConfig({
   base: '/',
   ignoreDeadLinks: false, // 当设置为 true 时，VitePress 不会因为死链而导致构建失败。
   // 部分 markdown 文件不作为源内容输出的，需要排除
-  srcExclude: ['**/README.md'],
+  srcExclude: [
+    // '**/README.md'
+  ],
   lang: 'zh-CN',
   title: '光明中医教材',
   description: '光明中医教材电子版，邀请大家共同来完善！',

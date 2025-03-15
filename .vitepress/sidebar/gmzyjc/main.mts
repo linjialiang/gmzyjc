@@ -3,8 +3,6 @@ const path = {
 };
 
 const sidebar = [
-  { text: '👉 关于项目', link: '/README' },
-  { text: '光明教材电子化公益项目', link: '/gmzyjc/README' },
   {
     text: '第一学年',
     collapsed: true,
