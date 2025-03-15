@@ -1,6 +1,6 @@
 # 光明中医电子教程
 
-该项目使用光明中医网校开源项目 [[`光明中医教程`]](https://gitee.com/gmzy_admin/gmzyjc) 提供的内容，并使用先进的文档框架 virepress 重新定制页面样式
+该项目使用光明中医网校开源项目 [[`光明中医教程`]](https://gitee.com/gmzy_admin/gmzyjc) 提供的内容，并使用先进的静态站点生成器 virepress 重新定制页面样式
 
 为了保证源码能跟光明中医网校开源项目的项目及时接轨，markdown 文档并未采用 vitepress 独有的样式重新排版。
 
