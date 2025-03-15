@@ -1,6 +1,9 @@
-光明中医教材电子版(非官方) 遵循 Apache2 开源协议发布，并提供免费使用。
+光明中医教材电子版遵循 Apache2 开源协议发布，并提供免费使用。
 版权所有 Copyright © 2025-至今 by 地上马<linjialiang@163.com>
 All rights reserved。
+
+本项目大部分内容来自光明中医网校的开源项目
+光明中医教材<https://gitee.com/gmzy_admin/gmzyjc>
 
 Apache Licence 是著名的非盈利开源组织 Apache 采用的协议。
 该协议和 BSD 类似，鼓励代码共享和尊重原作者的著作权，
