@@ -42,6 +42,10 @@
 </template>
 
 <style>
+  body {
+    font-family: 'HarmonyOS Sans TC', 'Punctuation SC', 'Inter', ui-sans-serif, system-ui, sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
   ::view-transition-old(root),
   ::view-transition-new(root) {
     animation: none;
