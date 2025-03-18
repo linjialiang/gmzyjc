@@ -28,7 +28,7 @@ const sidebar = [
     items: [
       { text: '《辅行诀脏腑用药法式》真伪考', link: `${path.main}fxjfu-01` },
       { text: '附录一：张大昌先生', link: `${path.main}fxjfu-02` },
-      { text: '附录二：《辅行诀脏腑用药法要》现存版本对比研究', link: `${path.main}fxjfu-02` },
+      { text: '附录二：《辅行诀脏腑用药法要》现存版本对比研究', link: `${path.main}fxjfu-03` },
     ],
   },
 ];
