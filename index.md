@@ -23,6 +23,9 @@ hero:
           link: https://www.gmzyjc.com/site/
 
 features:
+    - title: 入门系列
+      details: 中医入门基础教学
+      link: /0
     - title: 第一学年
       details: 中医入门基础教学
       link: /1
