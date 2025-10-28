@@ -9,6 +9,7 @@ const nav = [
     items: [
       { text: '《了解光明》', link: `${path.main}gmzy/gmzy001` },
       { text: '《中医概念入门》', link: `${path.main}rm/rm000` },
+      { text: '《中医诊察入门》', link: `${path.main}zhencha/summary` },
     ],
   },
   {

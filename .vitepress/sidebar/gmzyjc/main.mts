@@ -4,11 +4,18 @@ const path = {
 
 const sidebar = [
   {
-    text: '第一学年',
+    text: '入门计划',
     collapsed: true,
     items: [
       { text: '《了解光明》', link: `${path.main}gmzy/gmzy001` },
       { text: '《中医概念入门》', link: `${path.main}rm/rm000` },
+      { text: '《中医诊察入门》', link: `${path.main}zhencha/summary` },
+    ],
+  },
+  {
+    text: '第一学年',
+    collapsed: true,
+    items: [
       { text: '《实用中医文献学》', link: `${path.main}zywx/zywx00` },
       { text: '《中医药学概论》', link: `${path.main}gl/gl00.0-0.0.1.0.0` },
       { text: '《口诀浅释》', link: `${path.main}qs/qs00` },

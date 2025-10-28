@@ -82,9 +82,11 @@ export default defineConfig({
     },
     nav: [{ text: '主页', link: '/' }, ...nav.gmzyjc],
     sidebar: {
-      // 第一学年
+      // 入门系列
       '/gmzyjc/ok/gmzy/': sidebar.gmzy,
       '/gmzyjc/ok/rm/': sidebar.rm,
+      '/gmzyjc/ok/zhencha/': sidebar.zhencha,
+      // 第一学年
       '/gmzyjc/ok/zywx/': sidebar.zywx,
       '/gmzyjc/ok/gl/': sidebar.gl,
       '/gmzyjc/ok/qs/': sidebar.qs,
