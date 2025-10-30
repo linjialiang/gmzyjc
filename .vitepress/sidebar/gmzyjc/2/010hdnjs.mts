@@ -141,7 +141,7 @@ const sidebar = [
           { text: '（十一）营卫运行的昼夜节律', link: `${path.main}hdnj02-0.2.11.0.0` },
         ],
       },
-      { text: 'gai', link: `${path.main}hdnj02-0.3.0.0.0` },
+      { text: '三、人类是自然界的主人', link: `${path.main}hdnj02-0.3.0.0.0` },
       { text: '四、《内 经》的自然观', link: `${path.main}hdnj02-0.4.0.0.0` },
       { text: '小 结', link: `${path.main}hdnj02-0.5.0.0.0` },
     ],
