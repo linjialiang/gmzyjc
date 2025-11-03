@@ -6,7 +6,7 @@ import * as sidebar from './sidebar/main.mts';
 export default defineConfig({
   vite: {
     plugins: [
-      // PWA 配置区
+      // VitePWA 配置区
       // - 官方中文手册：https://vite-pwa-org-zh.netlify.app/
       // - 这里使用 vite 通用包
       // - 你也可以使用 vitepress 框架包（@vite-pwa/vitepress）
@@ -36,7 +36,7 @@ export default defineConfig({
               options: {
                 cacheName: 'media-cache',
                 expiration: {
-                  maxEntries: 360,
+                  maxEntries: 300,
                   maxAgeSeconds: 60 * 60 * 24 * 365,
                 },
               },
@@ -47,7 +47,7 @@ export default defineConfig({
               options: {
                 cacheName: 'images-cache',
                 expiration: {
-                  maxEntries: 10,
+                  maxEntries: 30,
                   maxAgeSeconds: 60 * 60 * 24 * 30,
                 },
               },
