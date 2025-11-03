@@ -205,17 +205,17 @@ export default withPwa(
         icons: [
           // 图标！重中之重！
           {
-            src: '/logo.png',
+            src: '/static/logo.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/logo.png',
+            src: '/static/logo.png',
             sizes: '512x512',
             type: 'image/png',
           },
           {
-            src: '/logo.png',
+            src: '/static/logo.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable', // 这个重要！告诉系统这图标能被裁剪成各种形状（圆的、方的）
