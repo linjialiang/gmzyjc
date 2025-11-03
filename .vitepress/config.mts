@@ -1,10 +1,8 @@
-// import flexSearchIndexOptions from "flexsearch";
 import { VitePWA } from 'vite-plugin-pwa';
 import { defineConfig } from 'vitepress';
 import * as nav from './nav/main.mts';
 import * as sidebar from './sidebar/main.mts';
 
-// export default defineConfig({
 export default defineConfig({
   vite: {
     plugins: [
@@ -14,7 +12,7 @@ export default defineConfig({
       // - 你也可以使用 vitepress 框架包（@vite-pwa/vitepress）
       VitePWA({
         injectRegister: 'auto',
-        registerType: 'prompt', // 有更新别偷偷刷新，得问问我（用户）同不同意
+        registerType: 'autoUpdate',
         base: '/',
         scope: '/',
         includeAssets: ['static/**/*.{ico,png,jpg,svg}'],
@@ -27,6 +25,7 @@ export default defineConfig({
         workbox: {
           globPatterns: ['**/*.{js,css,html,ico,png,jpg,jpeg,gif,svg,woff2}'],
           cleanupOutdatedCaches: true,
+          sourcemap: true,
           skipWaiting: true,
           clientsClaim: true,
           maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
@@ -86,7 +85,7 @@ export default defineConfig({
             '光明中医教材是原光明中医函授大学在1985年成立后，由当时诸多顶尖中医专家齐心合力编写而成，在中医界一直享有崇高的地位，是难得的中医学习资料，得到李可老中医的强烈推荐。为避免教材失传，光明中医网校在范竹雯老师的指导下，进行了光明中医教材电子化工作。编写光明中医教材时，各位编者老师为了传承中医，都是义务奉献，未收取报酬。因此电子化后的教材也是公益性的，向社会免费开放，大家可以广为传播。我们希望中医学习者能人手一套教材用于学习。',
           theme_color: '#ffffff',
           background_color: '#ffffff',
-          display: 'fullscreen',
+          display: 'standalone',
           orientation: 'any',
           start_url: '/',
           scope: '/',
