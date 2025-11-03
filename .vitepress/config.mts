@@ -34,9 +34,9 @@ export default defineConfig({
               urlPattern: /\.(?:mp4)$/,
               handler: 'CacheFirst',
               options: {
-                cacheName: 'google-fonts-cache',
+                cacheName: 'media-cache',
                 expiration: {
-                  maxEntries: 10,
+                  maxEntries: 360,
                   maxAgeSeconds: 60 * 60 * 24 * 365,
                 },
               },
@@ -47,7 +47,7 @@ export default defineConfig({
               options: {
                 cacheName: 'images-cache',
                 expiration: {
-                  maxEntries: 100,
+                  maxEntries: 10,
                   maxAgeSeconds: 60 * 60 * 24 * 30,
                 },
               },
