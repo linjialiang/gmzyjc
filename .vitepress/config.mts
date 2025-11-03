@@ -23,7 +23,7 @@ export default withPwa(
       math: false,
     },
     sitemap: {
-      hostname: 'http://gmzyjc.e8so.com',
+      hostname: 'https://gmzyjc.e8so.com',
       lastmodDateOnly: false,
     },
     themeConfig: {
