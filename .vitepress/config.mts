@@ -17,59 +17,31 @@ export default defineConfig({
         registerType: 'prompt', // 有更新别偷偷刷新，得问问我（用户）同不同意
         base: '/',
         scope: '/',
-
-        // includeAssets 配置静态资源缓存
-        // - 缓存时机：Service Worker 安装阶段缓存
-        // - 缓存范围：那些不经过构建处理的静态资源，通过此方式缓存
-        // - 特别说明：在 vitepress 体现为 /public 目录下的静态资源
-        includeAssets: [
-          // 方式1：具体文件路径（明确指定每个文件）
-          // 'static/logo.png',
-          // 'static/svg/iis-light.svg',
-          // 方式2：通配符模式（批量匹配）
-          'static/**/*.{ico,png,jpg,svg}',
-        ],
-
-        // 开发环境专用，关掉烦人的警告
+        includeAssets: ['static/**/*.{ico,png,jpg,svg}'],
         devOptions: {
           enabled: true,
-          suppressWarnings: true, // 开发时警告太多，眼花，先屏蔽
+          suppressWarnings: true,
           navigateFallback: '/',
           type: 'module',
         },
-
-        // Workbox 配置缓存策略
-        // - 缓存范围：那些需要构建处理的静态资源，通过此方式缓存
         workbox: {
-          // 预缓存策略
-          // - 用于配置 Service Worker 安装阶段需要缓存的资源
-          globPatterns: ['**/*.{js,css,html,ico,png,jpg,jpeg,gif,svg,woff2}'], // 需要缓存哪些类型的文件
-          // 清理过期缓存，别占地方
+          globPatterns: ['**/*.{js,css,html,ico,png,jpg,jpeg,gif,svg,woff2}'],
           cleanupOutdatedCaches: true,
-          // 跳过等待，立即激活新版本
-          skipWaiting: true, // 别等新的Service Worker了，赶紧干活
-          clientsClaim: true, // 新的 Service Worker 来了，立刻接管页面
-          maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 单个文件最大10MB，再大就不缓存了
-          // 运行时缓存策略
-          // - 缓存范围：支持所有静态资源(不经过+经过构建处理的静态资源)
-          // - 针对特定
+          skipWaiting: true,
+          clientsClaim: true,
+          maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
           runtimeCaching: [
-            // Google Fonts这类外部字体：缓存优先，存久点（一年），反正不常变
             {
-              // 必需配置
-              urlPattern: /\.(?:mp4)$/, // 正则表达式或函数
-              handler: 'CacheFirst', // 策略名称
-
-              // 可选配置
+              urlPattern: /\.(?:mp4)$/,
+              handler: 'CacheFirst',
               options: {
-                cacheName: 'google-fonts-cache', // 自定义缓存名称
+                cacheName: 'google-fonts-cache',
                 expiration: {
                   maxEntries: 10,
                   maxAgeSeconds: 60 * 60 * 24 * 365,
                 },
               },
             },
-            // 图片：缓存优先，但别存太久（30天），万一我换了图呢？
             {
               urlPattern: /\.(?:png|jpg|jpeg|svg|gif)$/,
               handler: 'CacheFirst',
@@ -81,10 +53,8 @@ export default defineConfig({
                 },
               },
             },
-            // 注意：JS/CSS/HTML Workbox默认会处理，通常用 StaleWhileRevalidate 策略（缓存优先，后台更新）
           ],
         },
-        // App清单，告诉系统“我是个App！”
         manifest: {
           short_name: '光明中医',
           name: '光明中医教材电子版',
